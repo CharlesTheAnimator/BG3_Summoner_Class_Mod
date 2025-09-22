@@ -1,0 +1,26 @@
+# Ignore generated files and folders
+/Generated/
+/Mods/
+
+# Ignore local configuration files
+*.bak
+*.old
+*.tmp
+*.log
+modsettings.lsx
+
+# Ignore specific mod manager files
+BG3ModManager.exe
+BG3ModManager.exe.config
+BG3ModManager.pdb
+
+# Ignore game-related files that are not part of the mod
+GustavDev/
+Data/
+bin/
+
+# Ignore common development environment files
+.vs/
+.vscode/
+*.user
+*.suo
