@@ -1,0 +1,9 @@
+<Order>
+	<Name>(?=.*_Head_)(?!.*_Mouth_Interior_)(?!.*_Eyes_)(?!.*_Ears_)(?!.*_Tearline_)(?!.*_Eyelashes_)(?!.*_Eyeshadow_).*</Name>
+	<Name>_Mouth_Interior_</Name>
+	<Name>_Eyes_</Name>
+	<Name>_Ears_</Name>
+	<Name>_Tearline_</Name>
+	<Name>_Eyelashes_</Name>
+	<Name>_Eyeshadow_</Name>
+</Order>

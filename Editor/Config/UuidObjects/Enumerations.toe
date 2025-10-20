@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <enumerations>
+    <enumeration id="0df199f0-acae-44ac-a400-46dcf86f93d3" name="GossipType">
+      <items>
+        <item id="e090359e-ea18-4907-88c4-a87924b80b85" value="PartyBanter" />
+      </items>
+    </enumeration>
+    <enumeration id="253fede1-d5e2-4cde-886a-bf4326e4b2cd" name="RewardType">
+      <items>
+        <item id="f7f4b23c-e6e2-4a24-a5b8-bf859f1e6af3" value="Enemy" />
+        <item id="7f594cf1-9f53-4492-9b04-4388a9c7bb89" value="Exploration" />
+        <item id="98ad5817-82bd-4083-a280-07e0ffab2bcb" value="Quest" />
+      </items>
+    </enumeration>
+    <enumeration id="44238a93-e5fd-434a-910d-70f6805e0413" name="BodyType">
+      <items>
+        <item id="f3fbaf60-85cd-4e5b-aebb-c0dd0d41d311" value="Male" />
+        <item id="c8ff07ce-96b7-486a-9d6c-1c413d9591a7" value="Female" />
+        <item id="1b75b4d4-b567-450e-9cf2-16cdfbc628bf" value="Max" />
+      </items>
+    </enumeration>
+    <enumeration id="a1ce27e6-398a-45ef-8760-4dd673f839a2" name="Identity">
+      <items>
+        <item id="722f2cca-304e-4414-a2a8-ce681d06d3ed" value="Male" />
+        <item id="4ec87a68-59b1-4157-bbb8-fbc8abcd4f52" value="Female" />
+        <item id="13454faf-99ce-453b-97ba-f178d82ba2b8" value="Neutral" />
+        <item id="a622e7a6-ff11-4920-a0e3-6d7c388ed175" value="Max" />
+      </items>
+    </enumeration>
+    <enumeration id="940aa6d4-020e-4a59-8c68-9277b029c333" name="DeathType">
+      <items>
+        <item id="4cf8b4f8-a204-4a01-8171-894072a0f5f1" value="None" />
+        <item id="b12b09f8-48fb-4318-a799-b542198f0e53" value="Acid" />
+        <item id="ba2cccbf-58e9-43de-a3fd-d0a0b6013bf6" value="Chasm" />
+        <item id="673422bc-f51e-42ff-aead-f37b55226820" value="DoT" />
+        <item id="665798be-2d39-4a26-b52a-b9eef5c3ced7" value="Electrocution" />
+        <item id="59c1ac97-7bbb-46d1-830c-316c7e346084" value="Explode" />
+        <item id="cf027b6a-d71b-4408-aefd-e5c33c4d5b02" value="Falling" />
+        <item id="753902d9-5b4c-40ac-8265-6f62d8ce4e3e" value="Incinerate" />
+        <item id="66105def-8cc2-4fdf-8684-73ff547e98e1" value="KnockedDown" />
+        <item id="13f45415-7acb-4aaa-af30-3275cd873568" value="Lifetime" />
+        <item id="3a6cc784-e629-4355-a78f-e4ba828d5669" value="Necrotic" />
+        <item id="365c0ee5-3745-40f0-b5a8-5364b3b86d1c" value="Physical" />
+        <item id="736a0d0b-f64e-40ad-9127-4e3a3545554a" value="Psychic" />
+        <item id="ac9978b0-eb68-4bf7-98b8-7cbaac797379" value="Radiant" />
+        <item id="35984587-eadb-4ec2-80ed-57ae7f891deb" value="CinematicDeath" />
+        <item id="3d143a7b-0c7f-4221-9b06-911b9b81da81" value="Cold" />
+      </items>
+    </enumeration>
+    <enumeration id="cba4ff91-fd97-4e7f-9af7-96c3d99aa8c6" name="Ability">
+      <items>
+        <item id="0cf38f56-0138-4cb2-8d36-1eaa052695bc" value="None" />
+        <item id="f701bd1c-a937-4b6c-8c68-b90a2bd5f220" value="Strength" />
+        <item id="d8ff3b36-4470-4317-8790-714dcaf7494f" value="Dexterity" />
+        <item id="c97d1946-cc99-4e52-b7a1-01ed3bde7d2b" value="Constitution" />
+        <item id="e6611749-bef6-4cac-be7b-92b3a2a8fc81" value="Intelligence" />
+        <item id="5c7cb638-59ec-48b9-892d-aac7c69eec89" value="Wisdom" />
+        <item id="476a8d9e-e4a7-420a-8f5a-2de8c060ab7e" value="Charisma" />
+      </items>
+    </enumeration>
+    <enumeration id="b4aad73b-50e5-4435-aece-175746ad33e8" name="CharacterCreatorAvailabilityType">
+      <items>
+        <item id="aa240c9a-6579-47b8-a6de-01c014501c7b" value="Unavailable" />
+        <item id="4a211856-9c3e-4327-919b-b46c9b98145a" value="Available" />
+        <item id="f0de2725-96c4-426b-bf03-85beb182e33f" value="Hidden" />
+      </items>
+    </enumeration>
+    <enumeration id="1c25a65b-c74a-4856-83a9-87ed71df2b29" name="CharacterCreatorSlotNames">
+      <items>
+        <item id="f14b303f-13a4-47ff-adf4-acf8974603aa" value="Head" />
+        <item id="49c20252-3ec5-4afc-b506-74d7137d5e4d" value="Hair" />
+        <item id="459e93e5-d8e6-4a20-94bb-61a786a81aa1" value="Horns" />
+        <item id="723c00d9-f84f-4c23-8cbb-a280915a151a" value="Beard" />
+        <item id="3efada69-d59a-46a6-917e-cd45a8843e35" value="Piercing" />
+        <item id="964d232e-375c-4dc7-b2d3-699dd486d4ab" value="DragonbornTop" />
+        <item id="179fcd07-699c-427b-b7f6-600723de40cd" value="DragonbornChin" />
+        <item id="796d57f5-022e-4177-8aa9-a0c29567eff1" value="DragonbornJaw" />
+        <item id="c470ce8f-8f44-4345-b7b5-f55313d531e8" value="Tail" />
+        <item id="eccb919c-ca4b-11ed-afa1-0242ac120002" value="Private Parts" />
+      </items>
+    </enumeration>
+    <enumeration id="1c25a65b-c74a-4856-83a9-87ed71df2b28" name="EquipmentIconCameraNames">
+      <items>
+        <item id="f14b303f-13a4-47ff-adf4-acf8974603aa" value="Body" />
+        <item id="49c20252-3ec5-4afc-b506-74d7137d5e4d" value="Cloak" />
+        <item id="459e93e5-d8e6-4a20-94bb-61a786a81aa1" value="Footwear" />
+        <item id="28eadf65-49dc-4740-82ba-bb3941948f91" value="Gloves" />
+        <item id="2420b0a6-3c6b-4b1a-8073-a8ba20830c4d" value="Headwear" />
+        <item id="415c5b30-055a-11ee-be56-0242ac120002" value="Underwear" />
+        <item id="40154b2b-1277-48ba-abb7-3ddd4dd357d5" value="Pants" />
+        <item id="fcd73e7c-220a-45d9-bab6-f5a1896238d3" value="Hat" />
+        <item id="5b6f9fa2-4be0-4584-b1e6-2654b6ff8090" value="Shoes" />
+        <item id="bf9319d7-dfa6-4397-8038-b18547fa76da" value="Circlet" />
+        <item id="162846bb-d9ca-4faa-a1b6-6e2c222c74e9" value="Hood" />
+        <item id="bb0967f5-14e6-4c86-8344-5d93bfe33b36" value="Underwear_Body" />
+      </items>
+    </enumeration>
+    <enumeration id="1c25a65b-c74a-4856-83a9-87ed71df2b29" name="CharacterCreatorBoneNames">
+      <items>
+        <item id="827c38ad-9446-4079-aa29-156b0e871a66" value="piercing_bridge_a_l" />
+        <item id="76ff0f2e-4d3a-494a-b7e2-49d5f77c2b37" value="piercing_bridge_a_r" />
+        <item id="5943c4f3-aaa4-473a-adaa-fb2821fc151a" value="piercing_brow_a_l" />
+        <item id="cb99e500-92c5-43c4-83d2-7eb4be70b700" value="piercing_brow_a_r" />
+        <item id="505d54a1-3297-48ac-bf2d-920de133b1ac" value="piercing_brow_b_l" />
+        <item id="b7eceae9-b178-4cbb-9d74-dba905415df1" value="piercing_brow_b_r" />
+        <item id="4dffd4ea-7e54-4aac-aa33-0d4d6cd80987" value="piercing_helix_a_l" />
+        <item id="29a982e2-5c0c-4158-a49f-d449952ef7f2" value="piercing_helix_a_r" />
+        <item id="7fd93bac-a89b-4565-9a72-49bb73d4c710" value="piercing_helix_b_l" />
+        <item id="b72becde-f0ae-46a5-b223-f1c7d24c7c18" value="piercing_helix_b_r" />
+        <item id="c9163c0d-62d9-46bd-89c9-979e574ef9a7" value="piercing_lobe_a_l" />
+        <item id="7aa6ff09-0d0b-4557-b11e-131bfa2fcc95" value="piercing_lobe_a_r" />
+        <item id="e8b30fb6-9f4f-4cd2-ad46-d70b80bbf506" value="piercing_lobe_b_l" />
+        <item id="fc9edb32-d6c9-4219-9dcd-24f38ff8a8f6" value="piercing_lobe_b_r" />
+        <item id="57acf854-69e9-4446-b9e4-9d9c87561a59" value="piercing_nostril_a_l" />
+        <item id="8c88155f-638b-4d7f-b319-7d0c194be0bd" value="piercing_nostril_a_r" />
+        <item id="6505bdf2-6bb2-4d4d-9231-7c34442fecba" value="piercing_septum_a_m" />
+        <item id="d984fb72-a569-4408-998b-be272e5410ab" value="piercing_tragus_a_l" />
+        <item id="0bb49bc0-2626-4d47-971e-5c5190532b5a" value="piercing_tragus_a_r" />
+        <item id="3bfc7d0d-04f1-48d4-abcc-73e7c3d57508" value="piercing_uplip_a_l" />
+        <item id="06c50682-a3ab-4083-99f4-b2937a020d26" value="piercing_uplip_a_r" />
+        <item id="4a09fe30-4024-47e8-acab-5db7ada1d4ca" value="piercing_uplip_b_l" />
+        <item id="80aaa551-d0eb-4ef0-98e2-1decb8701d01" value="piercing_uplip_b_r" />
+        <item id="1b9682c4-423b-4114-8569-26a4e5647a08" value="piercing_uplip_c_l" />
+        <item id="32850a9e-88cc-42c2-9a48-78b5efe78a54" value="piercing_uplip_c_r" />
+        <item id="f4a6a472-6b2f-4f05-974d-1291b2117b0f" value="piercing_uplip_d_l" />
+        <item id="63bbe19d-4ba4-4be1-916a-2eccc1c9402f" value="piercing_uplip_d_r" />
+        <item id="71afc871-58ab-43c9-a0f9-304498a30bf9" value="piercing_lowlip_a_l" />
+        <item id="e0df5c0f-4874-406b-92b7-d77b4aaa2400" value="piercing_lowlip_a_r" />
+        <item id="1729ddc9-f42f-49d0-aef0-fd031fa02882" value="piercing_lowlip_b_l" />
+        <item id="2ea8d25a-a7a3-405c-8de3-19bc7e0d43fc" value="piercing_lowlip_b_r" />
+        <item id="83fb957c-9b2f-4e33-9588-7ffdf1bac56e" value="piercing_lowlip_c_l" />
+        <item id="89c42d2d-2f8b-4362-a562-dd238206e34e" value="piercing_lowlip_c_r" />
+        <item id="afa18483-7d4d-4fb1-9141-c4f0fd39223a" value="piercing_lowlip_d_l" />
+        <item id="3b358fc3-9904-4437-bbc3-f3b1fca63d58" value="piercing_lowlip_d_r" />
+      </items>
+    </enumeration>
+    <enumeration id="b3c72033-47f2-4c3c-8033-cf26af71cecf" name="DiceType">
+      <items>
+        <item id="f42b60a7-3532-43bf-9c44-3b24a28e0807" value="D4" />
+        <item id="c0a7c5fe-b442-4ef7-b81f-fca55dd9e53c" value="D6" />
+        <item id="a1698256-21ba-49a2-a5a3-60494fb6193a" value="D8" />
+        <item id="b6cc69c4-e421-4aa2-b7e3-03c142342063" value="D10" />
+        <item id="cbb5d5b3-5a08-4b4f-b960-5874c642fd85" value="D12" />
+        <item id="d0b98996-c2ca-432d-bef7-eff140adf436" value="D20" />
+        <item id="8a3f8756-85af-44d3-92b9-3b5711abfb85" value="D100" />
+      </items>
+    </enumeration>
+    <enumeration id="d3533681-0e80-49e1-9131-c17a5ff74109" name="CharacterCreatorMaterialType">
+      <items>
+        <item id="ae54c4bc-2cb8-4c04-a5f8-0b0df4613a50" value="Tattoo" />
+        <item id="a9b95043-b291-4a6b-8674-baa6f241c0f7" value="Makeup" />
+        <item id="1879a6ea-ae9a-4593-9ac0-cfb741dd0122" value="Passive" />
+        <item id="1879a6ea-ae9a-4593-9ac0-cfb741dd0122" value="HairHighlight" />
+        <item id="1879a6ea-ae9a-4593-9ac0-cfb741dd0122" value="HairGraying" />
+        <item id="76e0f556-e642-47b3-84b4-3d95f5fba93f" value="Scar" />
+        <item id="ec7c2aca-9fdb-4e5f-8548-2ba65b210998" value="LipsMakeup" />
+        <item id="11c8ab4a-91c8-4202-b22d-79e3c4afe3ca" value="HornColor" />
+        <item id="3023d00d-ab40-4cf2-b117-8d694103c0b7" value="HornTipColor" />
+      </items>
+    </enumeration>
+    <enumeration id="88e20b4f-7bbd-42bd-9834-84464390b4cf" name="CharacterCreatorSkinTypes">
+      <items>
+        <item id="3a02a1f4-7ff0-4f11-b4aa-568006d66ba1" value="Standard" />
+        <item id="b18006e6-27db-4ba7-9cc7-a2e5c8c6423f" value="Dragonborn" />
+      </items>
+    </enumeration>
+    <enumeration id="fb8953f2-785d-40dc-88b3-1980adb9d681" name="LearningStrategy">
+      <items>
+        <item id="0d1ed225-9169-47ef-8572-90c105c77938" value="Singular" />
+        <item id="adc223e8-fbf4-4f43-ad22-85994ab125fe" value="AllChildren" />
+        <item id="dfc39db9-3848-4bff-8c22-4b0087478504" value="MostPowerful" />
+      </items>
+    </enumeration>
+    <enumeration id="be2a7bda-cc29-4ec3-9afb-b2612d9be708" name="TutorialSection">
+      <items>
+        <item id="1430809a-eb15-42c6-8516-5083b88939bc" value="Actions" />
+        <item id="944b8a4a-a232-4b9a-987b-785ae4597952" value="Campaign" />
+        <item id="c6aea395-4f1e-439b-aeff-94477a7fa962" value="Combat" />
+        <item id="4390e93f-b310-4b46-acd2-e6108823953d" value="CoreRules" />
+        <item id="4a47f58b-0348-4360-9b9a-013e768d77d0" value="CharactersAndRelationships" />
+        <item id="0e8ba8a9-99f4-4d7b-aafc-1b625f996e80" value="Exploration" />
+        <item id="9be3a027-6a6b-4d45-a263-39f60c66ee21" value="GameEnvironment" />
+        <item id="a3c3345a-79c5-4bd7-8b1b-6ac5002faca6" value="General" />
+        <item id="c63afc21-c213-4de3-8b38-dc5735be40f1" value="InventoryAndCrafting" />
+        <item id="ca3252a1-e621-4660-ae10-4962bf110642" value="Magic" />
+        <item id="20edbbca-1c39-4cc6-808b-c8624d02dc6b" value="Resting" />
+        <item id="6a68f68e-79fa-434e-b3cd-c0dfe3494728" value="HUD" />
+        <item id="dea573bc-acdb-426c-b159-a809b3db9b22" value="Characters" />
+        <item id="d5020a52-123a-41bf-a83a-e2ff8bdb4a1e" value="Gameplay" />
+        <item id="be69d9c5-b954-46ce-8cec-60241781fa70" value="Camp" />
+        <item id="bb6d75b7-0e51-4f36-b921-b0337bca3fcc" value="CharacterCreation" />
+        <item id="6721de38-7557-41ce-83c4-2edcf424406e" value="Class" />
+        <item id="b85643ed-3436-4da5-a545-0c6799e22ba2" value="Companions" />
+        <item id="9bd5a4ea-1368-467f-b85d-0d6eb9337b9c" value="Crafting" />
+        <item id="9ffa8a3d-df7e-43f1-b03e-8431c60244a9" value="Crime" />
+        <item id="b8281012-f979-4e22-9c75-b1c6aadda0bd" value="Hotbar" />
+        <item id="c7a8c2a7-35fd-4f06-bbe8-230c17bbb7ab" value="Illithid" />
+        <item id="8dc22d11-5bd7-4b7c-85db-c3ffaee67766" value="Inventory" />
+        <item id="22c70072-7a1f-4e5b-a211-1a39f9632d25" value="Journal" />
+        <item id="8e2a961c-4014-4ebb-9a5f-ba7ce1a89608" value="Map" />
+        <item id="aa457b85-9322-468d-9515-51180dceacfe" value="Multiplayer" />
+        <item id="6721ba77-b9a4-41b2-b1b4-1c50ba996edb" value="Stats" />
+        <item id="ff78cb73-4c9b-40f9-8057-c4a693fbb43d" value="Social" />
+        <item id="2ff0a57f-7d42-4c1b-8455-b4828bdd222b" value="Trading" />
+      </items>
+    </enumeration>
+    <enumeration id="d271e23c-2a09-4b9f-95b1-71021d7a4ec5" name="ModalTutorialType">
+      <items>
+        <item id="6987fec0-06c1-4ebb-862e-042b03ce30c3" value="Generic" />
+        <item id="52035016-5c17-4cfc-be98-f1f45667df69" value="Item" />
+        <item id="45579fb1-8ba6-473e-b383-38316257fdbd" value="Spell" />
+        <item id="5b22d9ba-d697-4a86-ac42-2d5e5b8b83e0" value="Bottom" />
+        <item id="3ae7af82-0699-4cac-91df-d04c8840eeff" value="BottomLeft" />
+        <item id="6cff384d-4953-42a1-a454-910e9649bc70" value="BottomRight" />
+        <item id="a63d4b41-8bfa-4dfe-ac4d-b961988b26d0" value="Right" />
+        <item id="195bda86-b7c5-407e-80e6-1ecb6cc0b56e" value="RightTop" />
+        <item id="d5c9a5c2-394c-4697-94ba-d4c313a4f752" value="RightBottom" />
+        <item id="9d7ed918-0ae0-4d1c-b309-7a9ddaac2100" value="Top" />
+        <item id="93aea6d0-39a7-480f-8cb9-c62cc268cdf4" value="TopRight" />
+        <item id="967cd42e-84f0-4774-9d69-7a8f3434af45" value="TopLeft" />
+        <item id="d43b597f-329a-4d65-9abc-6b4be8aed786" value="Left" />
+        <item id="5dd7aa10-a001-4870-8dc5-7eb011a677e0" value="LeftTop" />
+        <item id="5df81227-4f10-4e7a-9f01-00bf4f9811f5" value="LeftBottom" />
+        <item id="36c29536-a086-462e-b53b-e9f86d41cfd0" value="SideNotif" />
+      </items>
+    </enumeration>
+    <enumeration id="1a258877-02ba-468f-93ca-4bafce62a517" name="TutorialInputDevice">
+      <items>
+        <item id="0d1ed225-9169-47ef-8572-90c105c77938" value="All" />
+        <item id="adc223e8-fbf4-4f43-ad22-85994ab125fe" value="Keyboard" />
+        <item id="dfc39db9-3848-4bff-8c22-4b0087478504" value="Gamepad" />
+      </items>
+    </enumeration>
+    <enumeration id="e551247f-f874-4bea-9335-270248d69955" name="ErrorDescriptionType">
+      <items>
+        <item id="55621b6e-094c-4394-974d-5173d8ec1012" value="ErrorName" />
+        <item id="d4cd9192-f809-4a3b-9b30-92c734ee0226" value="ErrorStringData" />
+      </items>
+    </enumeration>
+    <enumeration id="44e9f8cf-6e67-4542-9ab0-7f9111277f74" name="ObjectSize">
+      <items>
+        <item id="c9491895-fef0-4756-bfb8-a900db91ba5e" value="Tiny" />
+        <item id="dd757e59-5a7f-4f3c-9d78-67a714c33c0d" value="Small" />
+        <item id="5da895f8-8c9f-4d5e-811d-42962a17724c" value="Medium" />
+        <item id="840cfa13-0839-4558-ab17-c6a01244723d" value="Large" />
+        <item id="3a9e19b4-17e0-46d0-acf3-4dad65cb0064" value="Huge" />
+        <item id="441019df-a200-4a4c-990a-f8e6e9003ca0" value="Gargantuan" />
+      </items>
+    </enumeration>
+    <enumeration id="4cbae15e-f02b-4d40-8e9d-0d82d0c95198" name="ActionsCapabilities">
+      <items>
+        <item id="74dd448d-3f37-41e2-82e6-56050b903a74" value="CastSpell" />
+        <item id="6a14719a-884d-4223-be02-bae338aaaf80" value="Attack" />
+        <item id="84bff436-ace5-4e66-aa2b-dd054ede7c4f" value="WorldActions" />
+        <item id="1501eca5-7a8a-4a11-964a-6902028c32fc" value="RitualSpells" />
+        <item id="37a1d44a-b648-47ce-9d17-d6f08f268afb" value="Pickpocketing" />
+        <item id="9e0866b1-5a44-45b2-878a-0cffac9d596d" value="Lockpicking" />
+        <item id="54163cbd-c9c7-4170-bc06-3bf7541c05a0" value="Disarming" />
+      </items>
+    </enumeration>
+    <enumeration id="47f4db20-5595-40b6-adab-4562fc0cd833" name="InteractionsCapabilities">
+      <items>
+        <item id="89f5da9c-5bbf-4aaa-9ef7-c3669a735520" value="BasicItemInteractions" />
+        <item id="8e3e662b-607a-4141-b118-443636d645b0" value="UseDoors" />
+        <item id="0e4b1401-d396-42a3-a4ab-8418dab29bd9" value="UseLadders" />
+        <item id="4ff88882-dec4-4c93-8df6-fbd8b656ffb3" value="Containers" />
+        <item id="189250a1-a485-4f05-ab77-06d285475799" value="Pickup" />
+        <item id="3a32b0a1-beaa-4d9d-9498-a9ee0815016f" value="ConsumeItems" />
+        <item id="8496bee2-fa03-453c-9476-c337c2c1e635" value="MoveObjects" />
+      </items>
+    </enumeration>
+    <enumeration id="c2680021-d1b3-4254-a8c1-6f7707167954" name="AwarenessCapabilities">
+      <items>
+        <item id="6564aa05-c9b1-4067-9ba9-1f91631e7109" value="CanSee" />
+        <item id="4b805936-4d7a-419d-b721-514de66a7f29" value="SpotSneakers" />
+        <item id="ba21f835-94d4-45af-9677-9467ae022a4d" value="DetectCrimes" />
+        <item id="72c1c008-17a2-40d6-8de4-efdac5418c08" value="AvoidTraps" />
+        <item id="dee86795-a7b7-4867-8a4d-a26b20560cfa" value="ActivateTriggers" />
+        <item id="aba8db6e-ef42-4c9d-82e4-886eb57a4172" value="DetectVictimOnlyCrimes" />
+      </items>
+    </enumeration>
+    <enumeration id="d3729896-0cde-474d-8c8a-755f892af7d6" name="SpeakingCapabilities">
+      <items>
+        <item id="faa5b60b-b8f3-4734-9cd9-05203fb33b0a" value="Spells" />
+        <item id="4cc66173-3a65-4355-9408-f872323294ae" value="Dialogue" />
+        <item id="b0ffb9ed-9a25-4a17-854e-170a1a666e2f" value="VoiceBark" />
+        <item id="aef885d8-94ca-488b-ab15-d27295b17cdc" value="PlayVocals" />
+        <item id="3adbb9af-1337-4de8-80fa-a5556e05be3f" value="PlayPNC" />
+      </items>
+    </enumeration>
+    <enumeration id="1472a2ff-27fe-4a86-9867-80e78619a3f4" name="RotationAxis">
+      <items>
+        <item id="1bb1b8c8-21d1-497e-8c3e-5bf05b1a9ca3" value="None" />
+        <item id="64cc3d31-6697-4d51-8015-fd4e8a6d4a13" value="XAxisPositive" />
+        <item id="a0f9b5b9-7185-4542-91cc-d2c40e5e0104" value="XAxisNegative" />
+        <item id="a89da26d-6fd3-4419-a814-47d8aa6471bd" value="YAxisPositive" />
+        <item id="addadeae-8a8c-4f64-985f-4982182f71be" value="YAxisNegative" />
+        <item id="8c4fac8f-7b1b-41b0-8eca-a892ab95f46a" value="ZAxisPositive" />
+        <item id="fcc30ddd-8ce2-4f65-a9f7-7a52c15186ff" value="ZAxisNegative" />
+      </items>
+    </enumeration>
+    <enumeration id="70e6ef63-94f9-4b0f-9ad3-1a15ba39b48a" name="ReactionScope">
+      <items>
+        <item id="76d319f9-f74e-43e3-a99f-228eb0e1a73c" value="Global" description="Change will always happen" />
+        <item id="2155d3d5-8336-43c1-80ab-1a887cc477a7" value="Local" description="Change will happen IF companion is nearby" />
+        <item id="0a590421-a74b-4dd8-a7d1-70598c4c5eed" value="Private" description="Change will happen IF companion is in the dialog" />
+      </items>
+    </enumeration>
+    <enumeration id="4a0a7286-daa0-4b04-9ee1-07210def49a2" name="WallAnimationType">
+      <items>
+        <item id="e37fc8f6-bd24-4d14-9d60-caa0cd9fb3f0" value="Linear" />
+        <item id="7de68909-5e97-497a-b106-04de78ffb2c3" value="OddEven" />
+      </items>
+    </enumeration>
+    <enumeration id="6ed8a042-4e1e-4fda-8dae-60b024e9514c" name="ConditionType">
+      <items>
+        <item id="50dadbc3-454f-4f8b-aaef-332258e52bc3" value="Roll" />
+        <item id="f52515cb-70ed-495c-a390-b5361801adfe" value="OriginRoll" />
+        <item id="fdd86de5-7ba5-430a-a430-1050661a0edc" value="AoE" />
+        <item id="3b79db87-0d81-4513-ab59-a1d443cb27f3" value="Target" />
+        <item id="b31935ee-11af-4446-8c48-097d97e29872" value="ThrowableTarget" />
+        <item id="3ca1823c-cb50-4a45-8a34-7b88b65c3eee" value="Forking" />
+        <item id="efc9a058-2843-471a-a3b8-8381489bc49a" value="Cycle" />
+        <item id="5389fc91-8148-428e-a679-0f4559af7216" value="Requirements" />
+        <item id="6271a796-340f-4a6f-bc25-73ef6889778a" value="OriginTarget" />
+      </items>
+    </enumeration>
+    <enumeration id="f3abc685-fc29-4a25-be78-7fb52f2bcd8d" name="ExperienceRewardLevelSource">
+      <items>
+        <item id="cb6f9bc8-6e6f-40ba-af23-0b5612b968ca" value="Character" />
+        <item id="d2ed8f47-375d-4590-ae81-94e1ffa5dd41" value="HighestCharacterOrArea" />
+        <item id="28edc3ae-5b35-4017-aa49-d30f185ad090" value="Area" />
+      </items>
+    </enumeration>
+    <enumeration id="d1b24083-eaac-42ba-b454-bcd48898f483" name="TutorialEventType">
+      <items>
+        <item id="fd9bb358-47ec-4348-a8d5-f16365a15290" value="None" />
+        <item id="9650a3c7-f2f7-47fd-91f4-ce850a0e2a30" value="ActionResource_Depleted" />
+        <item id="c1160c63-45c6-4596-8998-1010f1e4b445" value="AttackHit_Immunity" />
+        <item id="5732ea3e-518f-4d0c-a2bd-088c6782f354" value="AttackHit_Resistance" />
+        <item id="8abefb76-5bec-425d-b0f8-98142e095db6" value="AttackHit_Vulnerable" />
+        <item id="38b34c8e-50a6-4090-94f9-57d3eb20beb4" value="Functor" />
+        <item id="b6c3eb18-80ce-4f3b-b001-029166192af6" value="ActionResource_Gained" />
+        <item id="82e204bd-6157-453a-b382-75773315ef83" value="Save_Quicksave" />
+        <item id="04221a69-ed6b-4f2f-8ce8-b4a1e55177fc" value="UIEvent" />
+        <item id="98dc22c5-8c46-4c20-b5d6-32cb6ed76d19" value="HotbarSlot_Added" />
+        <item id="97261cb3-06fe-4b7a-a7b5-05db4d5b2f60" value="HotbarSlot_Removed" />
+        <item id="5b5ca4ab-b5e6-4182-b96c-92584f90563a" value="DualWielding_Enabled" />
+        <item id="84339541-8c7d-4a7c-853f-f3847d3b8761" value="MagicPockets" />
+        <item id="bcc64917-ad73-4c1b-b42e-9f8119d324dd" value="MetaMagic_Gained" />
+        <item id="70ef37c1-e973-40b4-829c-4761d300f5ab" value="UserAction_Activated" />
+        <item id="9f457a3a-1991-434e-a8c0-3bd2437db337" value="ActiveRoll_Advantage" />
+        <item id="43c18da2-b9dd-4a8c-8898-57ec8af97957" value="ActiveRoll_Dialog" />
+        <item id="33429d75-0259-4ab1-bacb-8ae58a5b7cfa" value="ActiveRoll_Disadvantage" />
+      </items>
+    </enumeration>
+    <enumeration id="347a0737-89c1-4fa8-a488-a6dc90d74730" name="RulesetModifierType">
+      <items>
+        <item id="7bed6022-2b1c-4a10-9d2a-a594a4cbdeda" value="None" />
+        <item id="7bed6022-2b1c-4a10-9d2a-a594a4cbdedd" value="Int" />
+        <item id="d9cfc29c-673c-4f9c-8971-bd0458e403d0" value="Float" />
+        <item id="5bc57ace-4460-4a6d-8f76-2daedf77a9e7" value="String" />
+        <item id="0c983b11-db21-4a51-a295-127f66115735" value="Bool" />
+      </items>
+    </enumeration>
+    <enumeration id="347a0737-89c1-4fa8-a488-a6dc90d74730" name="RulesetType">
+      <items>
+        <item id="7bed6022-2b1c-4a10-9d2a-a594a4cbdede" value="Ruleset" />
+        <item id="d9cfc29c-673c-4f9c-8971-bd0458e403d4" value="Difficulty" />
+      </items>
+    </enumeration>
+    <enumeration id="bd025431-f92e-4488-9d47-d99839acbde2" name="ProjectileDefaultType">
+      <items>
+        <item id="32c182e6-46aa-4ba7-8a43-10047dc04ca7" value="Force_Preview" />
+        <item id="41521f80-e109-45f4-961e-ab1f7de7d2ab" value="Dragging_Preview" />
+      </items>
+    </enumeration>
+    <enumeration id="78429a93-d4cc-488c-8ee9-fcd1512ab086" name="BodyShape">
+      <items>
+        <item id="814e2f9a-cabe-496c-800b-4d5c05e23018" value="Standard" />
+        <item id="27972009-9bc9-43c3-8df5-8ca5d2aec64e" value="Strong" />
+        <item id="e255446d-3f77-4d11-aebf-18133ca29a98" value="Max" />
+      </items>
+    </enumeration>
+    <enumeration id="d690ba35-a3e0-4204-bad6-3ef57bae0c57" name="HotbarSlotFlags">
+      <items>
+        <item id="eb17d994-34d2-4a22-82f2-24de2f3bc20b" value="IsController" />
+        <item id="7e1dbe9f-e9dc-45f5-adf7-418ce6b9cf1f" value="IsItem" />
+        <item id="2d43efca-e936-4a2d-aa61-475a6363bc2a" value="IsPassive" />
+        <item id="162f4a67-e5fb-4239-a830-e2429567ff13" value="IsSpell" />
+        <item id="eae8035b-840b-4631-93d8-139f3629afe4" value="IsTemporary" />
+        <item id="cb64de46-199b-410a-8049-a46aab9a99bc" value="IsUser" />
+      </items>
+    </enumeration>
+    <enumeration id="03d63dfe-a2b2-47af-9248-e90aed0f2d98" name="UnlockType">
+      <items>
+        <item id="16bf74c0-da30-4216-a9d7-856179331418" value="Default" />
+        <item id="4875de02-9d35-40f4-9941-86b35b9f136a" value="SignUp" />
+        <item id="8aa70462-fed6-4f76-88a0-35f8919da21b" value="FreeDLC" />
+        <item id="af2c7549-62a6-4509-a8a2-effe519a460b" value="Custom" />
+      </items>
+    </enumeration>
+    <enumeration id="2c13d238-1e05-4ea6-af5b-23351137399f" name="TutorialUserAction">
+      <items>
+        <item id="4229283c-062f-45ea-a2d9-48cac59f21df" value="None" />
+        <item id="c7fd776d-1725-4ab7-ab04-67ad1d00b482" value="ActiveSearch" />
+        <item id="0a9b26b9-cb4b-4851-a371-8d197dae9848" value="CameraTargetMode" />
+        <item id="0af2e724-7ca6-4b6b-8500-f06d965a5c4d" value="TargetCycleCombat" />
+        <item id="6b6e5ff6-5515-4a52-8ab1-78c4ed97c84c" value="TargetCycleWorld" />
+        <item id="d7301f7e-7a77-45d3-b504-353b57b12d6f" value="SelectCharacterNotOwned" />
+        <item id="60c7874a-b61a-4926-965d-a1d3378c13b5" value="CameraMove" />
+        <item id="3fda20e2-b6b9-4e57-a457-e2c774a8c492" value="CameraRotate" />
+        <item id="6ad77ea9-cb9f-498d-9c1b-1301a4cc1714" value="CameraAtLeashLimit" />
+        <item id="1fe5b443-800d-4953-af9e-d15af18f5fdb" value="DisplayWorldTooltips" />
+        <item id="79acfe31-1a14-4383-bb17-3a95522f5e1d" value="CameraTrackPlayer" />
+      </items>
+    </enumeration>
+    <enumeration id="fd264af9-89ff-4435-a3d8-36999b4bedd4" name="HotBarType">
+      <items>
+        <item id="57d858ac-9349-4dec-8396-c8d86a5b863b" value="Common" />
+        <item id="ca686dae-5251-482b-ab18-aa615e22de0e" value="Class" />
+        <item id="3ead3edd-7ff2-4ed0-b81c-91508baa2444" value="Items" />
+        <item id="2da5f0ca-cfd5-417f-be26-62317288e746" value="Passives" />
+        <item id="9f42c57e-504f-4d1d-ae4f-e314963a8224" value="Fixed" />
+        <item id="b156f7d7-87d4-40af-afff-98c35512a246" value="Custom" />
+        <item id="aa94fd47-6a4d-42e1-a797-7e86cc03e6b2" value="MAX" />
+      </items>
+    </enumeration>
+    <enumeration id="e91dd82d-cbcb-49a6-9a53-ed054483482d" name="HotBarController">
+      <items>
+        <item id="14467e73-ae82-40b2-812f-ea014baa3e41" value="Keyboard" />
+        <item id="ac0e6864-2057-4ff3-8e4d-26ddf3531210" value="Controller" />
+        <item id="220a1efa-5525-4649-a1f0-bfc54af01141" value="MAX" />
+      </items>
+    </enumeration>
+    <enumeration id="95023434-41a5-4109-befa-a070198b266e" name="Damage Type">
+      <items>
+        <item id="061b2978-980b-4159-85f8-98990a557d10" value="None" />
+        <item id="77940c1b-0dee-4366-a23c-f48660f6461a" value="Slashing" />
+        <item id="fd485635-e351-469b-8776-5db6dfb3d613" value="Piercing" />
+        <item id="525da3a6-7cc1-4048-9d73-25caabf4b43b" value="Bludgeoning" />
+        <item id="711f0dbe-0beb-4047-8608-cfdb27904837" value="Acid" />
+        <item id="eceda28e-fb27-40fd-822d-a71dfd788c76" value="Thunder" />
+        <item id="a36d024f-5ad2-44d7-8835-dc99e63dec57" value="Necrotic" />
+        <item id="e5f74932-325b-4be6-8a74-c24af16c3659" value="Fire" />
+        <item id="a3cfafba-a4c7-457b-b214-726d4fcb9c07" value="Lightning" />
+        <item id="6b39c5cd-461c-4246-8187-dcdd43074ab2" value="Cold" />
+        <item id="24ab85e7-eee9-4c6c-abbc-4698cd8f09b5" value="Psychic" />
+        <item id="eb3b5d55-ba91-457a-a9f1-e6977ff7fa63" value="Poison" />
+        <item id="0379bdaa-c60d-496d-b739-7b4ed2d08ddd" value="Radiant" />
+        <item id="a90147ac-d8c1-4a7b-9cad-6d714b63776b" value="Force" />
+      </items>
+    </enumeration>
+    <enumeration id="7a31af79-a6db-44ce-8f45-7e733bef91f0" name="VerbalIntent">
+      <items>
+        <item id="f5a8e2f5-073e-4a4a-ab29-30f2b6cef9bd" value="None" />
+        <item id="877594a8-4949-4124-8f4c-490e120c1ab1" value="Damage" />
+        <item id="82f4edad-24e4-4af5-8530-5b2eeaf6b6d9" value="Healing" />
+        <item id="a3534e9f-243b-41fa-91ee-f3cb949fbae6" value="Buff" />
+        <item id="cfddeec0-ddf2-4f96-976b-7a0099aca20a" value="Debuff" />
+        <item id="cac76077-300f-4083-a5c4-796fa441f466" value="Utility" />
+        <item id="a7d2bec7-aabf-46ba-88a3-70735a058ac1" value="Control" />
+        <item id="b1bc86c3-2334-4edf-8acf-a6e01802b253" value="Summon" />
+      </items>
+    </enumeration>
+    <enumeration id="1d4ea322-8a27-497e-b0f0-9dad35f51685" name="ShapeshiftInheritanceType">
+      <items>
+        <item id="65ee7100-04d6-4af4-aa3e-d36627cbff13" value="KeepOriginal" />
+        <item id="36576300-494f-4108-a033-436c2eb8c098" value="ReplaceOriginal" />
+        <item id="588e4d86-f3a7-4257-9830-b9e022127ff8" value="Merge" />
+      </items>
+    </enumeration>
+    <enumeration id="2ef960e9-9a08-436c-b5c0-04766aa15d5e" name="ShapeshiftInheritanceTypeNoMerge">
+      <items>
+        <item id="0c7a97ba-5969-4009-b604-f2040b131032" value="KeepOriginal" />
+        <item id="0d4f6601-b074-45d6-aae7-e37c0d745455" value="ReplaceOriginal" />
+      </items>
+    </enumeration>
+  </enumerations>
+</root>

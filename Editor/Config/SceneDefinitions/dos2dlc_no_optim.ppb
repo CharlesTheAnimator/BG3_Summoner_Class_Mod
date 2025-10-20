@@ -1,0 +1,7 @@
+TransformFile -unitsPerMeter 1.0 -right PosX -up PosY -back NegZ
+MeshIndices16Bit
+ConvertTangentFramesToQTangents -precision Int16
+DivCompressVertexData
+DivUpdateMetaData
+DivKillUnusedData
+CompressBitKnit2

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ListΩ1 Count="33">
+  <String>Dummy_Root</String>
+  <String>Dummy_CastFX</String>
+  <String>Dummy_BodyFX</String>
+  <String>Dummy_ChestFX</String>
+  <String>Dummy_HeadFX</String>
+  <String>Dummy_EyeFX_01</String>
+  <String>Dummy_EyeFX_02</String>
+  <String>Dummy_OverheadFX</String>
+  <String>Dummy_HitImpactFX</String>
+  <String>Dummy_R_KneeFX_01</String>
+  <String>Dummy_L_KneeFX_01</String>
+  <String>Dummy_R_TentacleFX</String>
+  <String>Dummy_L_TentacleFX</String>
+  <String>Dummy_R_HandFX</String>
+  <String>Dummy_L_HandFX</String>
+  <String>Dummy_WingFX</String>
+  <String>Dummy_StatusFX</String>
+  <String>Dummy_MouthFX</String>
+  <String>Dummy_NeckFX</String>
+  <String>Socket_HeadFX</String>
+  <String>_Weapon</String>
+  <String>Dummy_FX</String>
+  <String>Dummy_FX_01</String>
+  <String>Dummy_FX_02</String>
+</ListΩ1>
