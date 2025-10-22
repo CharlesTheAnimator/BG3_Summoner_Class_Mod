@@ -9,11 +9,9 @@
 *.tmp
 *.log
 *.xmd
-*.xml
 *.xcd
 *.GR2
 *.DDS
-*.lsx
 
 # Ignore specific mod manager files
 BG3ModManager.exe
@@ -22,23 +20,10 @@ BG3ModManager.pdb
 
 # Ignore game-related files that are not part of the mod
 *.pak
-CrossplayUI/
-DiceSet_01/
-DiceSet_02/
-DiceSet_03/
-DiceSet_06/
 Engine/
 Generated/
-Localization/
 Public/
-Gustav/
-GustavDev/
-GustavX/
-MainUI/
-ModBrowser/
 PhotoMode/
-Shared/
-SharedDev/
 
 
 # Ignore common development environment files
