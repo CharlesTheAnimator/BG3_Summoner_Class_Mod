@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="2"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" type="LSString" value="28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8"/>
+            <attribute id="Name" type="LSString" value="GustavDev"/>
+            <attribute id="Type" type="LSString" value="Adventure"/>
+            <attribute id="UUID" type="LSString" value="ce9d2c61-89b5-6af6-ebee-a1cc0f0eec2c"/>
+            <attribute id="GameProject" value="Gustav" type="LSString" />
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Object" type="LSString" value="Notable"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
