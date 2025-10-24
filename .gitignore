@@ -20,10 +20,6 @@ BG3ModManager.pdb
 
 # Ignore game-related files that are not part of the mod
 *.pak
-Engine/
-Generated/
-Public/
-PhotoMode/
 
 
 # Ignore common development environment files
