@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Summoner Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics, AnimalHandling, Arcana, Medicine, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="f956ed77-2b83-4533-9584-67e9d44c20f3"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

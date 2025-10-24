@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ProduceFlame;Shout_Shillelagh;Target_ThornWhip;Target_DancingLights;Target_MageHand;Target_MinorIllusion;Shout_Thaumaturgy;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="e7d1c5f7-f84c-4cc7-96a9-53a0141275a7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 1"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_FogCloud;Target_Grease;Target_ProtectionFromEvilAndGood;Zone_Thunderwave;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord"/>
+                    <attribute id="UUID" type="guid" value="fb420143-7010-429c-85ff-f7a8488c40b1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spell scroll list"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_FogCloud;Target_Grease;Target_ProtectionFromEvilAndGood;Zone_Thunderwave;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord"/>
+                    <attribute id="UUID" type="guid" value="678b8f07-30bb-45e3-a3a2-d86e8ba2d9b8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner Familiar Spell"/>
+                    <attribute id="Spells" type="LSString" value="Target_FindFamiliar_Ritual_Summoner"/>
+                    <attribute id="UUID" type="guid" value="7448e0aa-82b8-4cbd-a2d8-df21db59289d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner Adept"/>
+                    <attribute id="Spells" type="LSString" value="Target_SummonerAdept"/>
+                    <attribute id="UUID" type="guid" value="770954f7-ef34-4795-963c-5aba0d2259f7"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

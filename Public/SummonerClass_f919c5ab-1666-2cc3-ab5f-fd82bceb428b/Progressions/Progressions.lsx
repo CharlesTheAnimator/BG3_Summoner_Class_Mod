@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(SimpleWeapon);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(f956ed77-2b83-4533-9584-67e9d44c20f3,2);SelectSpells(e7d1c5f7-f84c-4cc7-96a9-53a0141275a7,3,0,,,,AlwaysPrepared);AddSpells(fb420143-7010-429c-85ff-f7a8488c40b1);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);AddSpells(7448e0aa-82b8-4cbd-a2d8-df21db59289d,SummonerFamiliarSpell,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
+                    <attribute id="UUID" type="guid" value="5a7f02fd-07e8-4edf-89b8-59a10291bba8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(770954f7-ef34-4795-963c-5aba0d2259f7,SummonerAdept,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
+                    <attribute id="UUID" type="guid" value="0760cb8e-e4a1-442d-a7c6-5de4d19bb53f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(92126d17-7f1a-41d2-ae6c-a8d254d2b135)"/>
+                    <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
+                    <attribute id="UUID" type="guid" value="8c48b919-f6b0-49ec-9b13-4f016d2dbe9b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
+                    <attribute id="UUID" type="guid" value="35af6c2d-be31-4673-8963-395211449405"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel3;WildStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3156daf5-9266-41d0-b52c-5bc559a98654)"/>
+                    <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
+                    <attribute id="UUID" type="guid" value="6e540e3c-e691-4937-8739-deb0a340f1dc"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
