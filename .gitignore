@@ -20,6 +20,41 @@ BG3ModManager.pdb
 
 # Ignore game-related files that are not part of the mod
 *.pak
+Public/Engine
+Public/Shared
+Projects/GustavDev
+Mods/Gustav
+Mods/GustavDev
+Mods/GustavX
+Mods/Shared
+Mods/SharedDev
+Localization/*
+Generated/*
+Editor/Config/*
+Editor/Gizmos/*
+Editor/Help/*
+Editor/Hints/*
+Editor/MEIEditor/*
+Editor/Mods/CrossplayUI/*
+Editor/Mods/DiceSet_01/*
+Editor/Mods/DiceSet_02/*
+Editor/Mods/DiceSet_03/*
+Editor/Mods/DiceSet_06/*
+Editor/Mods/Engine/*
+Editor/Mods/Gustav/*
+Editor/Mods/GustavDev/*
+Editor/Mods/GustavX/*
+Editor/Mods/MainUI/*
+Editor/Mods/ModBrowser/*
+Editor/Mods/PhotoMode/*
+Editor/Mods/Shared/*
+Editor/Mods/SharedDev/*
+Editor/Preview/*
+Editor/Textures/*
+Editor/Triggers/*
+
+
+
 
 
 # Ignore common development environment files
