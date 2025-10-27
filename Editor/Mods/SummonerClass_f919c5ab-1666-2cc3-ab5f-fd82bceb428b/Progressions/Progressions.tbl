@@ -35,8 +35,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Summoner" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(92126d17-7f1a-41d2-ae6c-a8d254d2b135)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="1b28f835-7264-44f4-9dfc-89b642c610a1;efb1fee2-2e38-42c6-9767-92b21591898a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -63,6 +63,120 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,3)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3156daf5-9266-41d0-b52c-5bc559a98654)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel3;WildStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_237" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2d75cdbc-bc47-4176-b8f4-9d6663d00758" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_236" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9d2122d5-9bfc-418b-9e88-9176037087eb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0);ActionResource(WildShape,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0f094e35-9675-464d-8cae-8e58c28de955,,,,AlwaysPrepared);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);AddSpells(bd15435a-55a8-4e81-bbac-f6f600cbe1af,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_235" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1e4ff1a1-31ad-4099-8340-b92fa22e2c9a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e64bc365-6037-4f82-b710-8d958d9334e6,1,DruidCircleLand)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_234" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2ef41456-4817-4291-9623-97f9eda3582e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ef953742-69fa-4730-a289-bf9ce9629b1a,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_225" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7abc0d08-3f4d-4923-9395-469338724ab8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(758a607c-7d6c-4b1a-a98f-c4e0885592a0,1,DruidCircleLand)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="83ec5a91-5550-43d0-8dbd-ee7c40d65f7d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19bad95a-4bca-4dda-98c9-f489b50192c2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0);ActionResource(WildShape,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0f094e35-9675-464d-8cae-8e58c28de955,,,,AlwaysPrepared);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);AddSpells(bd15435a-55a8-4e81-bbac-f6f600cbe1af,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ec277a9-bf21-4e73-b02c-46bc4bc24cd4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e64bc365-6037-4f82-b710-8d958d9334e6,1,DruidCircleLand)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa11b614-b609-455d-b832-0da6fe145808" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ef953742-69fa-4730-a289-bf9ce9629b1a,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3a33028b-d074-443e-8e97-b48ce37c0007" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(758a607c-7d6c-4b1a-a98f-c4e0885592a0,1,DruidCircleLand)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(NaturalRecoveryPoint,1,0)" />
       </fields>
     </stat_object>
   </stat_objects>

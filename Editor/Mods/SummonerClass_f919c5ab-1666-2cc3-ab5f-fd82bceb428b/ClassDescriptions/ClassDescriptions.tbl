@@ -31,7 +31,7 @@
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Planeswalker" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74a54c36g73a1g8667gd9e2g92a382d69bf7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa53b812g60cdg1fbfg0f5dgdb906f54e0e7" version="1" />
-        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="ba1f14d6-d40b-47ce-b071-91b491d87b27" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
@@ -67,7 +67,7 @@
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Occultist" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9145a7c0g7506g2e95g36fbg3fd6a39d2581" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6106923gc562g3ac4g8684gcbcbc311b111" version="1" />
-        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="ba1f14d6-d40b-47ce-b071-91b491d87b27" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />

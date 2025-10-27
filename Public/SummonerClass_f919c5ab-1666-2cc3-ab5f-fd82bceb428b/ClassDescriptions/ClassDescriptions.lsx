@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="400"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="ClassDescriptions">
         <node id="root">
             <children>
@@ -36,7 +36,7 @@
                     <attribute id="Name" type="FixedString" value="Planeswalker"/>
                     <attribute id="ParentGuid" type="guid" value="2d81775a-418e-4db2-9b0a-0d064bc266d1"/>
                     <attribute id="PrimaryAbility" type="uint8" value="4"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="SoundClassType" type="FixedString" value="Druid"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e"/>
@@ -66,7 +66,7 @@
                     <attribute id="Name" type="FixedString" value="Occultist"/>
                     <attribute id="ParentGuid" type="guid" value="2d81775a-418e-4db2-9b0a-0d064bc266d1"/>
                     <attribute id="PrimaryAbility" type="uint8" value="6"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="SoundClassType" type="FixedString" value="Druid"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396"/>

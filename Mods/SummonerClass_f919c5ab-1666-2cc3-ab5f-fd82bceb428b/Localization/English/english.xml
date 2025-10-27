@@ -26,13 +26,13 @@
   <content contentuid="h6482155dgc99bga123gda28g16cbe6a1a0fc" version="1">Find Familiar: Raven</content>
   <content contentuid="hfe55bf6eg1935g8f2bgdbfdg001acfeb585b" version="1">Summon a spider familiar with a poisonous &lt;LSTag Type="Spell" Tooltip="Target_Bite_TinySpider_Familiar"&gt;Bite&lt;/LSTag&gt;.</content>
   <content contentuid="hef8479fdga049g13ecgb0c3gfb01bfdaeb81" version="1">Find Familiar: Spider</content>
-  <content contentuid="h37e0a92eg1877g087eg0cbbg8c5644d6eeca" version="3">Hyena</content>
+  <content contentuid="h37e0a92eg1877g087eg0cbbg8c5644d6eeca" version="4">Conjured Hyena</content>
   <content contentuid="h397117a8g9ffbg0712gbfe0gd6fc690a3ab9" version="1">Fetid Ooze</content>
-  <content contentuid="hac845bdbgaee7gfad7gfc25g1f697b8de17f" version="1">Spider</content>
-  <content contentuid="hd1890a7cgfeb9g3941gd5aegbeead45e8780" version="3">Wolf</content>
+  <content contentuid="hac845bdbgaee7gfad7gfc25g1f697b8de17f" version="3">Conjured Spider</content>
+  <content contentuid="hd1890a7cgfeb9g3941gd5aegbeead45e8780" version="4">Conjured Wolf</content>
   <content contentuid="hfc2760ecg51cfge698g507ag25c63cc9756d" version="1">Find Familiar: Cat</content>
   <content contentuid="hecd2a624gceb0gb016ge2cfg171c004b301d" version="1">Summon: Flumph</content>
-  <content contentuid="h6e522993g6d5bg2b26g35d9g43c3e1d55108" version="4">Summoned Flumph</content>
+  <content contentuid="h6e522993g6d5bg2b26g35d9g43c3e1d55108" version="6">Conjured Flumph</content>
   <content contentuid="hed5e853dga44bg55aagbe19g7a5972b72581" version="1">Summon: Hyena</content>
   <content contentuid="h3c161309g8aefgb322ge20fg263405ca4174" version="1">Summon: Harpy Melee</content>
   <content contentuid="h32124603g795dg9788g7705gb66e1b9ca986" version="1">Summon: Harpy Range</content>
@@ -40,6 +40,9 @@
   <content contentuid="h53c2c1a5g678dgca16gb862gf8974780e9cd" version="1">Summon: Spider</content>
   <content contentuid="h69377b46g5297g7a3cg7eccgbbfe0fb6305d" version="1">Summon: Wolf</content>
   <content contentuid="h92800ea8g6ea1g56eeg6f9agcc0b2e3f97eb" version="1">Spider</content>
-  <content contentuid="h9fc8806fgbdbeg7c68gc9bdg84c8d27c7801" version="2">Summoned Wolf</content>
-  <content contentuid="h7bef523cgf4d8ge3c3g5637g603ae9597c89" version="1">Ooze</content>
+  <content contentuid="h9fc8806fgbdbeg7c68gc9bdg84c8d27c7801" version="3">Summoned Wolf</content>
+  <content contentuid="h7bef523cgf4d8ge3c3g5637g603ae9597c89" version="3">Conjured Ooze</content>
+  <content contentuid="hb0b218f6geb75g0ee7g6a5ag175b55d2e139" version="1">Conjured Harpy</content>
+  <content contentuid="h9cf56924g9405gb2afg773dg0b0493797753" version="1">Conjured Harpy</content>
+  <content contentuid="h21add982g1176g3c19g8651gca4d5da33aac" version="1">Conjured Harpy</content>
 </contentList>
