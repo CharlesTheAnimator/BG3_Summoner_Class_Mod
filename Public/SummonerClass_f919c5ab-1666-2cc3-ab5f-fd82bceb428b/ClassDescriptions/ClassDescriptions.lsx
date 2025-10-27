@@ -69,8 +69,22 @@
                     <attribute id="ProgressionTableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="SoundClassType" type="FixedString" value="Druid"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396"/>
+                    <attribute id="SpellList" type="guid" value="69d140ce-e988-4007-b069-30fe2e5f0d2f"/>
                     <attribute id="UUID" type="guid" value="1b28f835-7264-44f4-9dfc-89b642c610a1"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hd0213979gc8e2ged7bgab25g67d49f5f0f3d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h26061343gbb4ege7bag876cg4bbee2c5cc5d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="test"/>
+                    <attribute id="ParentGuid" type="guid" value="2d81775a-418e-4db2-9b0a-0d064bc266d1"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="d9b67adb-a514-40d2-bc3f-6ded4be49c73"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396"/>
+                    <attribute id="UUID" type="guid" value="083282ff-5dea-457c-843c-c497f3ea0d43"/>
                 </node>
             </children>
         </node>
