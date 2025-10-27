@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Druid"/>
+                    <attribute id="Description" type="TranslatedString" handle="h8b27ab87g4330gcce0g83b3g99e0ab83a3a0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb97d1fc3gcc66gf986g1e8cg94abf307ae6b" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Druid"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="SpellList" type="guid" value="fd366d4e-4063-4b6f-9cd9-26889bcd6465"/>
+                    <attribute id="UUID" type="guid" value="c88eea53-f810-42fc-8ecb-c58d7903c757"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="44ac4317-4d38-4d28-80e2-94024c6e42f0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h974dcdfdg0150gd791g9151g7a5dd580e989" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hea706870g7a2cgec30gc0bag1500afc37364" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CircleOfTheLand"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="SpellList" type="guid" value="2c5a2f80-4da9-4aab-b9f4-500335eeffee"/>
+                    <attribute id="UUID" type="guid" value="f01a4fb6-d7b5-4317-809b-c831284d2f80"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
