@@ -17,6 +17,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08d92522-f4b8-46ee-b7b4-18789965403a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Shout_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep;Shout_ShadowBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="678b8f07-30bb-45e3-a3a2-d86e8ba2d9b8" />
         <field name="Name" type="NameTableFieldDefinition" value="Summoner spell scroll list" />
         <field name="Spells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_FogCloud;Target_Grease;Target_ProtectionFromEvilAndGood;Zone_Thunderwave;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord" />

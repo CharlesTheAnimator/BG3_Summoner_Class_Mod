@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="400"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="SpellLists">
         <node id="root">
             <children>
@@ -28,6 +28,11 @@
                     <attribute id="Name" type="FixedString" value="Summoner Adept"/>
                     <attribute id="Spells" type="LSString" value="Target_SummonerAdept"/>
                     <attribute id="UUID" type="guid" value="770954f7-ef34-4795-963c-5aba0d2259f7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Shout_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep;Shout_ShadowBlade"/>
+                    <attribute id="UUID" type="guid" value="08d92522-f4b8-46ee-b7b4-18789965403a"/>
                 </node>
             </children>
         </node>

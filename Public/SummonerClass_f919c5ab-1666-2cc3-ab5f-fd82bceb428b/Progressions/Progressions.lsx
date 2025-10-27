@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="400"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="Progressions">
         <node id="root">
             <children>
@@ -20,7 +20,7 @@
                     <attribute id="Name" type="LSString" value="Summoner"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(770954f7-ef34-4795-963c-5aba0d2259f7,SummonerAdept,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(770954f7-ef34-4795-963c-5aba0d2259f7,SummonerAdept,,,AlwaysPrepared);AddSpells(08d92522-f4b8-46ee-b7b4-18789965403a)"/>
                     <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
                     <attribute id="UUID" type="guid" value="0760cb8e-e4a1-442d-a7c6-5de4d19bb53f"/>
                 </node>

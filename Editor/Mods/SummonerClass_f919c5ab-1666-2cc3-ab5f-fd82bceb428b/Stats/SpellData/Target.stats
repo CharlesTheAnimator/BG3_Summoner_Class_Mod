@@ -23,6 +23,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SummonerAdept_Flumph;Target_SummonerAdept_Harpy_Melee;Target_SummonerAdept_Harpy_Range;Target_SummonerAdept_Hyena;Target_SummonerAdept_Ooze;Target_SummonerAdept_Spider;Target_SummonerAdept_Wolf;" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -31,7 +32,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Flumph" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(81089caf-6966-4afd-834a-54840cdae388, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(81089caf-6966-4afd-834a-54840cdae388, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
@@ -48,6 +49,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -56,7 +58,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Harpy_Melee" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(8a745426-99dc-4526-ba08-a0f1877ba182, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(8a745426-99dc-4526-ba08-a0f1877ba182, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -72,6 +74,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -80,7 +83,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Harpy_Range" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(1b1ae7ce-6663-4c1b-ba64-6d0d2a3d27a7, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(1b1ae7ce-6663-4c1b-ba64-6d0d2a3d27a7, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -96,6 +99,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -104,7 +108,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Hyena" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6ea8a6a6-9c6c-409f-8d95-912103a8e1d7, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6ea8a6a6-9c6c-409f-8d95-912103a8e1d7, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -120,6 +124,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -128,7 +133,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Ooze" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(1c62ea44-edca-42dd-b5d3-e43eb5731ad2, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6240f9ef-fc81-4301-8ea7-de4a0ad4e57e, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -145,6 +150,7 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -153,7 +159,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Spider" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(2c5a33e3-ca29-4a51-8820-ca30d36e50b3, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(2c5a33e3-ca29-4a51-8820-ca30d36e50b3, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -169,6 +175,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -177,7 +184,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Wolf" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(79e6defa-bcaf-471a-aece-9f97dbe1b677, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(79e6defa-bcaf-471a-aece-9f97dbe1b677, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -193,6 +200,7 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69377b46g5297g7a3cg7eccgbbfe0fb6305d" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -200,7 +208,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1e653a88-befe-442a-b90f-7ac5cd0aea51" />
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4010be3-d207-4f0a-bec7-f1f89e81ac71" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsLinkedSpellContainer;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
@@ -215,7 +222,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Cat_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b873d36a-2910-4dd8-b276-6db0517daab1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(IsImprovedPactOfTheChain()):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_CAT_RITUAL);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc2760ecg51cfge698g507ag25c63cc9756d" version="1" />
@@ -227,7 +233,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Crab_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c05c7323-08b7-452f-9775-0dbe23d918f1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49d6e2f5g8c79gea6cgb816g329de32ec945" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h79623bc3g6944g9045ga078g7daab0e66dd1" version="1" />
@@ -240,7 +245,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Frog_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f2a2d0a6-8568-4763-8248-7dba390790b6" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14fcbc18gc6f6g37edg754dga6d82fb5e16a" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf02b8d5eg0762g320cg98f2g52152b6101f5" version="1" />
@@ -253,7 +257,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Rat_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f49a715b-cd59-4e5f-a78b-bd36d93f7912" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h836b3f67ge679g0929gd5adg72354f9b5aa7" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h952dfe82g90afg1d44gdd65gac9d0651c833" version="1" />
@@ -266,7 +269,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Raven_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="425e0956-da9a-4c39-91ce-4177bfe03409" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb06d99e1g0684ge8ddg7365ge18a7587fe2f" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6482155dgc99bga123gda28g16cbe6a1a0fc" version="1" />
@@ -279,7 +281,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Spider_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="04e1ca9c-65f4-4bfd-bf5a-c62b618cbb32" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
-        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe55bf6eg1935g8f2bgdbfdg001acfeb585b" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef8479fdga049g13ecgb0c3gfb01bfdaeb81" version="1" />
