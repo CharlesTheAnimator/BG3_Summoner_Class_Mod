@@ -287,5 +287,21 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(IsImprovedPactOfTheChain()):Summon(b7aa5389-957c-4e15-8832-b72c930c318c, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(b7aa5389-957c-4e15-8832-b72c930c318c, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_SPIDER_RITUAL);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78a372e7-6f18-415d-a1c8-29463fa1ee4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain_Imp_override_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d3b8550-41e0-48f9-b814-b0b5998d46ed" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50849b49-af98-4374-a88d-eb3063b3abc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain_Quasit_override_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c4fa807-5260-47d5-a96b-2716a02fce05" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

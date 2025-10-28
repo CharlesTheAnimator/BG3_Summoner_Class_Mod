@@ -254,3 +254,15 @@ data "DisplayName" "hef8479fdga049g13ecgb0c3gfb01bfdaeb81;1"
 data "Description" "hfe55bf6eg1935g8f2bgdbfdg001acfeb585b;1"
 data "UseCosts" "ActionPoint:1"
 
+new entry "Target_PactOfTheChain_Imp_override_Summoner"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PactOfTheChain_Imp"
+data "SpellContainerID" "Target_FindFamiliar_Ritual_Summoner"
+
+new entry "Target_PactOfTheChain_Quasit_override_Summoner"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PactOfTheChain_Quasit"
+data "SpellContainerID" "Target_FindFamiliar_Ritual_Summoner"
+

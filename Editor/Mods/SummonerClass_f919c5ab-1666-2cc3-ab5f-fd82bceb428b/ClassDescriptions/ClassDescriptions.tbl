@@ -39,6 +39,7 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Druid" />
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -75,23 +76,6 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Druid" />
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="69d140ce-e988-4007-b069-30fe2e5f0d2f" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
-        <field name="UUID" type="IdTableFieldDefinition" value="083282ff-5dea-457c-843c-c497f3ea0d43" />
-        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="2d81775a-418e-4db2-9b0a-0d064bc266d1" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="test" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h26061343gbb4ege7bag876cg4bbee2c5cc5d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0213979gc8e2ged7bgab25g67d49f5f0f3d" version="1" />
-        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
-        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
-        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
-        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
-        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="32879c22-4858-48ef-8f8d-22e6d395b396" />
-        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="d9b67adb-a514-40d2-bc3f-6ded4be49c73" />
       </fields>
     </stat_object>
   </stat_objects>
