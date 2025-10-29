@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,2);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145)"/>
+                    <attribute id="TableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="UUID" type="guid" value="d84586b4-4b14-43db-b1c4-e8b7738fc4c6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Druid"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="UUID" type="guid" value="90ee5082-4dfb-4257-b170-db64f5e048d2"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="7458da78-34b7-4150-a42f-37197ab04510"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3eab0689-e51b-4634-a690-0375d3cb2716"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(92126d17-7f1a-41d2-ae6c-a8d254d2b135)"/>
+                    <attribute id="TableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="UUID" type="guid" value="1ee5c195-2a21-4e9b-b8de-deabe21543a1"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Druid"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="UUID" type="guid" value="5eb68e34-0551-4d0c-8594-30ca81e8ca05"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel3;WildStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3156daf5-9266-41d0-b52c-5bc559a98654)"/>
+                    <attribute id="TableUUID" type="guid" value="238176f1-9c40-45c0-bcaf-80ebe86d521a"/>
+                    <attribute id="UUID" type="guid" value="371f4207-591b-4d53-8ce2-5862a3163032"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="UUID" type="guid" value="7bed7a4f-fde8-4418-a20e-8badd2b7a38a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(NaturalRecoveryPoint,1,0);ActionResource(WildShape,2,0)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0f094e35-9675-464d-8cae-8e58c28de955,,,,AlwaysPrepared);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,1,0,,,,AlwaysPrepared);AddSpells(bd15435a-55a8-4e81-bbac-f6f600cbe1af,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="UUID" type="guid" value="98afcb87-6aff-4576-b237-aa8e0ff3a802"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(NaturalRecoveryPoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e64bc365-6037-4f82-b710-8d958d9334e6,1,DruidCircleLand)"/>
+                    <attribute id="TableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="UUID" type="guid" value="5bcbdd08-74ac-432d-9312-dddbda30081f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(ef953742-69fa-4730-a289-bf9ce9629b1a,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="UUID" type="guid" value="dc1fab48-a0c6-405a-821c-f3e3ce634b70"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(NaturalRecoveryPoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(758a607c-7d6c-4b1a-a98f-c4e0885592a0,1,DruidCircleLand)"/>
+                    <attribute id="TableUUID" type="guid" value="a81c6f15-da20-4afd-a159-8fcb8402196f"/>
+                    <attribute id="UUID" type="guid" value="6c9bc47f-31f9-46bd-9e2b-6fee40725677"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

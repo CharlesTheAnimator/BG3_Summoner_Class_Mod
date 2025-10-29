@@ -4,9 +4,9 @@
     <region id="MetaData">
         <node id="root">
             <attribute id="GameProject" type="LSString" value=""/>
-            <attribute id="Module" type="LSString" value="993a0e0f-183b-0d48-0bf7-deb15a139f3c"/>
-            <attribute id="Name" type="LSString" value="Test"/>
-            <attribute id="UUID" type="LSString" value="cf3a4c7c-889f-07d5-9573-fc898b56e2de"/>
+            <attribute id="Module" type="LSString" value="873d13cf-5b71-18e5-ddf9-0d1b21d2a2cc"/>
+            <attribute id="Name" type="LSString" value="test"/>
+            <attribute id="UUID" type="LSString" value="bec469e5-73dd-53b1-5ea9-6d989e6d1f60"/>
             <attribute id="UpdatedDependencies" type="bool" value="true"/>
             <children>
                 <node id="Categories"/>

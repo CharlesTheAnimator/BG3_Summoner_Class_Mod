@@ -17,6 +17,37 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08d92522-f4b8-46ee-b7b4-18789965403a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Shout_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7016a46-95ce-449f-bbe3-72c11b1a310d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d384a8f8-6adb-4b15-94a7-338ffbe09f2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef9790eb-212e-47af-85de-58ad2c2e2f8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bafc55f3-567d-4e0a-addc-97c5e083ec9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="678b8f07-30bb-45e3-a3a2-d86e8ba2d9b8" />
         <field name="Name" type="NameTableFieldDefinition" value="Summoner spell scroll list" />
         <field name="Spells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_FogCloud;Target_Grease;Target_ProtectionFromEvilAndGood;Zone_Thunderwave;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord" />
@@ -34,6 +65,90 @@
         <field name="UUID" type="IdTableFieldDefinition" value="770954f7-ef34-4795-963c-5aba0d2259f7" />
         <field name="Name" type="NameTableFieldDefinition" value="Summoner Adept" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9422bf8-b724-43e7-b607-445c313b62f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spell scroll list" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4695264e-3395-45fc-86a1-2ace6ea753db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spell scroll list" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="710922c2-ecbf-411a-8bd1-dc61ee3eed57" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="811039ec-5665-4bc4-bdba-6f3ee070961d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61e01697-37a1-4f53-9cbe-00a14f2f1a99" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="752a4e06-213b-49b3-8dfa-ff7e087bceaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb20371d-8ea7-4de9-aaf5-968b01f108c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1be00660-c986-46b6-9ff3-5773d0451d7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e66a2ab3-436c-47ec-bede-d63326591c07" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0bb93cd0-70ae-475e-950e-b40bd15c57f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e62645e-91c6-46f6-bbea-6008101bb88c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="933ff4cc-d693-4983-82b7-ba371fb7bea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="972dc738-0c84-4953-b7fe-b0b45457769f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1485bc8c-eb16-44c4-b1d2-680c8280e6a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 6" />
       </fields>
     </stat_object>
   </stat_objects>

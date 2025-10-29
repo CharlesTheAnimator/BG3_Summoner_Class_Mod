@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="400"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="SpellLists">
         <node id="root">
             <children>
@@ -13,6 +13,11 @@
                     <attribute id="Name" type="FixedString" value="Summoner spells level 1"/>
                     <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_FogCloud;Target_Grease;Target_ProtectionFromEvilAndGood;Zone_Thunderwave;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord"/>
                     <attribute id="UUID" type="guid" value="fb420143-7010-429c-85ff-f7a8488c40b1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Shout_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep"/>
+                    <attribute id="UUID" type="guid" value="08d92522-f4b8-46ee-b7b4-18789965403a"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Summoner spell scroll list"/>
@@ -28,6 +33,78 @@
                     <attribute id="Name" type="FixedString" value="Summoner Adept"/>
                     <attribute id="Spells" type="LSString" value="Target_SummonerAdept"/>
                     <attribute id="UUID" type="guid" value="770954f7-ef34-4795-963c-5aba0d2259f7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 3"/>
+                    <attribute id="UUID" type="guid" value="c7016a46-95ce-449f-bbe3-72c11b1a310d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 4"/>
+                    <attribute id="UUID" type="guid" value="d384a8f8-6adb-4b15-94a7-338ffbe09f2c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 5"/>
+                    <attribute id="UUID" type="guid" value="ef9790eb-212e-47af-85de-58ad2c2e2f8f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summoner spells level 6"/>
+                    <attribute id="UUID" type="guid" value="bafc55f3-567d-4e0a-addc-97c5e083ec9c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spell scroll list"/>
+                    <attribute id="UUID" type="guid" value="a9422bf8-b724-43e7-b607-445c313b62f9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spell scroll list"/>
+                    <attribute id="UUID" type="guid" value="4695264e-3395-45fc-86a1-2ace6ea753db"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 1"/>
+                    <attribute id="UUID" type="guid" value="710922c2-ecbf-411a-8bd1-dc61ee3eed57"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 5"/>
+                    <attribute id="UUID" type="guid" value="972dc738-0c84-4953-b7fe-b0b45457769f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 6"/>
+                    <attribute id="UUID" type="guid" value="1485bc8c-eb16-44c4-b1d2-680c8280e6a4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 2"/>
+                    <attribute id="UUID" type="guid" value="811039ec-5665-4bc4-bdba-6f3ee070961d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 3"/>
+                    <attribute id="UUID" type="guid" value="61e01697-37a1-4f53-9cbe-00a14f2f1a99"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 4"/>
+                    <attribute id="UUID" type="guid" value="752a4e06-213b-49b3-8dfa-ff7e087bceaa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 5"/>
+                    <attribute id="UUID" type="guid" value="cb20371d-8ea7-4de9-aaf5-968b01f108c9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist spells level 6"/>
+                    <attribute id="UUID" type="guid" value="1be00660-c986-46b6-9ff3-5773d0451d7e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 1"/>
+                    <attribute id="UUID" type="guid" value="e66a2ab3-436c-47ec-bede-d63326591c07"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 2"/>
+                    <attribute id="UUID" type="guid" value="0bb93cd0-70ae-475e-950e-b40bd15c57f9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 3"/>
+                    <attribute id="UUID" type="guid" value="2e62645e-91c6-46f6-bbea-6008101bb88c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker spells level 4"/>
+                    <attribute id="UUID" type="guid" value="933ff4cc-d693-4983-82b7-ba371fb7bea1"/>
                 </node>
             </children>
         </node>
