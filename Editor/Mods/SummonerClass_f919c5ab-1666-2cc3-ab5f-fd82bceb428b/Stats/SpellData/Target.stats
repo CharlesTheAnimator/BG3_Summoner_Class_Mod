@@ -293,6 +293,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain_Imp_override_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4d3b8550-41e0-48f9-b814-b0b5998d46ed" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea503c0eg5d2cg6c1egc229g3fb4553e29cb" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -301,6 +302,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain_Quasit_override_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7c4fa807-5260-47d5-a96b-2716a02fce05" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d550da8g5f2ega17fg93dbg05d689931e63" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

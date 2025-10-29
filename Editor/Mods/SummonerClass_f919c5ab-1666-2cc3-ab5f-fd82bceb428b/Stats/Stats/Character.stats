@@ -247,29 +247,5 @@
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a0909b67-c9c0-4842-a9c6-7df14a6e4077" />
-        <field name="Name" type="NameTableFieldDefinition" value="_Goblins" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7f03d35b-37bb-4268-8017-e721af97cff2" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules" />
-        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="StepsType" version="1" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
-        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
-        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="ArmorType" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor;SimpleWeapons;Shields;LightArmor;Scimitars" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="7" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="35" />
-        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE;STATUS_HARD:GOBLIN_HARDCORE" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Stealth, 6); BlockRegainHP(Undead;Construct)" />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>

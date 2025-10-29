@@ -259,10 +259,12 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_PactOfTheChain_Imp"
 data "SpellContainerID" "Target_FindFamiliar_Ritual_Summoner"
+data "DisplayName" "hea503c0eg5d2cg6c1egc229g3fb4553e29cb;1"
 
 new entry "Target_PactOfTheChain_Quasit_override_Summoner"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_PactOfTheChain_Quasit"
 data "SpellContainerID" "Target_FindFamiliar_Ritual_Summoner"
+data "DisplayName" "h9d550da8g5f2ega17fg93dbg05d689931e63;1"
 

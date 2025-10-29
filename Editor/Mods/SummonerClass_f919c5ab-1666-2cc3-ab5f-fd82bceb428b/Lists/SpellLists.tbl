@@ -69,20 +69,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a9422bf8-b724-43e7-b607-445c313b62f9" />
-        <field name="Name" type="NameTableFieldDefinition" value="Occultist spell scroll list" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9916a59d-8df6-4425-bac7-14c3346fe754" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_EldritchBlast" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4695264e-3395-45fc-86a1-2ace6ea753db" />
-        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spell scroll list" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="710922c2-ecbf-411a-8bd1-dc61ee3eed57" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c98f81cb-a097-4fa7-8b66-872f435b4f81" />
         <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Command_Container" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -113,6 +109,18 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1be00660-c986-46b6-9ff3-5773d0451d7e" />
         <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9422bf8-b724-43e7-b607-445c313b62f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist spell scroll list" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4695264e-3395-45fc-86a1-2ace6ea753db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spell scroll list" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
