@@ -141,7 +141,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c98f81cb-a097-4fa7-8b66-872f435b4f81);SelectSpells(9916a59d-8df6-4425-bac7-14c3346fe754,1,0,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c98f81cb-a097-4fa7-8b66-872f435b4f81);AddSpells(9916a59d-8df6-4425-bac7-14c3346fe754,1,0,,,AlwaysPrepared);AddSpells(811039ec-5665-4bc4-bdba-6f3ee070961d)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

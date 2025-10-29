@@ -52,7 +52,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Occultist Cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_EldritchBlast"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_EldritchBlast;Target_PactOfTheChain_Imp_override_Summoner;Target_PactOfTheChain_Quasit_override_Summoner;Target_SummonerAdept_WingedHorror"/>
                     <attribute id="UUID" type="guid" value="9916a59d-8df6-4425-bac7-14c3346fe754"/>
                 </node>
                 <node id="SpellList">
@@ -62,6 +62,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Occultist spells level 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_Invisibility;Shout_ShadowBlade"/>
                     <attribute id="UUID" type="guid" value="811039ec-5665-4bc4-bdba-6f3ee070961d"/>
                 </node>
                 <node id="SpellList">

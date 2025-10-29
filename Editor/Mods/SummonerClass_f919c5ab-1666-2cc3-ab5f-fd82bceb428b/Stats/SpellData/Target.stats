@@ -205,6 +205,31 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="725cec02-6129-4da4-b430-30349c8ba2ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_WingedHorror" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(a5b0057a-8f81-4264-9668-9c0781822c4e, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_PactOfTheChain_Imp" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="VFX_Somatic_03" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="739617e8-1255-4429-8b96-cc86296e0366" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h126aa17dg9f35g5116g97f5g52ff44b381b3" version="1" />
+        <field name="SelectedPositionEffect" type="GuidObjectTableFieldDefinition" value="42d5aea3-cc27-4612-a531-efc61d337e4d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1e653a88-befe-442a-b90f-7ac5cd0aea51" />
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Ritual_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4010be3-d207-4f0a-bec7-f1f89e81ac71" />

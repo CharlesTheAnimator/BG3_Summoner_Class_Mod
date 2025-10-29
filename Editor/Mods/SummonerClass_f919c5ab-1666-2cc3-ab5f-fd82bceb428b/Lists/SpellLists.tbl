@@ -71,7 +71,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9916a59d-8df6-4425-bac7-14c3346fe754" />
         <field name="Name" type="NameTableFieldDefinition" value="Occultist Cantrips" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_EldritchBlast" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_EldritchBlast;Target_PactOfTheChain_Imp_override_Summoner;Target_PactOfTheChain_Quasit_override_Summoner;Target_SummonerAdept_WingedHorror" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -85,6 +85,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="811039ec-5665-4bc4-bdba-6f3ee070961d" />
         <field name="Name" type="NameTableFieldDefinition" value="Occultist spells level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Blindness;Target_Invisibility;Shout_ShadowBlade" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -115,7 +115,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Occultist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c98f81cb-a097-4fa7-8b66-872f435b4f81);SelectSpells(9916a59d-8df6-4425-bac7-14c3346fe754,1,0,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c98f81cb-a097-4fa7-8b66-872f435b4f81);AddSpells(9916a59d-8df6-4425-bac7-14c3346fe754,1,0,,,AlwaysPrepared);AddSpells(811039ec-5665-4bc4-bdba-6f3ee070961d)"/>
                     <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="UUID" type="guid" value="2d75cdbc-bc47-4176-b8f4-9d6663d00758"/>
                 </node>
