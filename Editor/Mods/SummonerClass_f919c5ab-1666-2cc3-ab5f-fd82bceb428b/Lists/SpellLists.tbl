@@ -32,6 +32,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d384a8f8-6adb-4b15-94a7-338ffbe09f2c" />
         <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Polymorph;Target_ConjureMinorElemental;Target_ConjureWoodlandBeing;Target_GraspingVine;Target_GuardianOfFaith;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
