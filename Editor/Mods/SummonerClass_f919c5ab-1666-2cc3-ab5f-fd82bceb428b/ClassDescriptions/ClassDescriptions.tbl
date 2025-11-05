@@ -40,6 +40,7 @@
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Druid" />
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
         <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_Planeswalker" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

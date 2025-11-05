@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1942cae1-a4f2-41bc-b3ce-e5f5130e1ddf" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Book_Indestructible_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b86d6c41-f601-4be8-a9d5-9aa9b23815e1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,5 @@
+new equipment "EQP_Planeswalker"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "BOOK_GLO_GeneralLoreBook_LegendsOfTheSeaBitch"
+

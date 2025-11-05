@@ -30,6 +30,7 @@
                 <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_Planeswalker"/>
                     <attribute id="Description" type="TranslatedString" handle="haa53b812g60cdg1fbfg0f5dgdb906f54e0e7" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h74a54c36g73a1g8667gd9e2g92a382d69bf7" version="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>

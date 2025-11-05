@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b4bc1b9-9e22-4d53-bbf5-8a58b8dffff9" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Planeswalker" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="BOOK_GLO_GeneralLoreBook_LegendsOfTheSeaBitch" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
