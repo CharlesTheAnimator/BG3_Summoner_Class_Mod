@@ -21,6 +21,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Summoner spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConjureBarrage;Target_ElementalWeapon;Shout_HealingWord_Mass;Shout_SpiritGuardians;Target_StinkingCloud"/>
                     <attribute id="UUID" type="guid" value="c7016a46-95ce-449f-bbe3-72c11b1a310d"/>
                 </node>
                 <node id="SpellList">
@@ -67,6 +68,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Occultist spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_HungerOfHadar;Target_RemoveCurse"/>
                     <attribute id="UUID" type="guid" value="61e01697-37a1-4f53-9cbe-00a14f2f1a99"/>
                 </node>
                 <node id="SpellList">
