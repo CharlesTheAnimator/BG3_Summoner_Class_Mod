@@ -34,6 +34,7 @@
                     <attribute id="Description" type="TranslatedString" handle="haa53b812g60cdg1fbfg0f5dgdb906f54e0e7" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h74a54c36g73a1g8667gd9e2g92a382d69bf7" version="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Planeswalker"/>
                     <attribute id="ParentGuid" type="guid" value="2d81775a-418e-4db2-9b0a-0d064bc266d1"/>
@@ -43,6 +44,11 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e"/>
                     <attribute id="UUID" type="guid" value="efb1fee2-2e38-42c6-9767-92b21591898a"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
+                        </node>
+                    </children>
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>

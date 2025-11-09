@@ -141,10 +141,11 @@
                     <attribute id="UUID" type="guid" value="2e90fae2-fb2b-47c8-87d9-8de8057d19d9"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Planeswalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectEquipment(cc22c3e7-3fe1-4d9d-814e-522dee7fd0ba,1,SummonerBook)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectEquipment(cc22c3e7-3fe1-4d9d-814e-522dee7fd0ba,1,SummonerBook);SelectSpells(d481bae2-b379-4bcb-a1b3-660dddc56c5e,2,0,,,,AlwaysPrepared);SelectSpells(0bb93cd0-70ae-475e-950e-b40bd15c57f9,4,0);AddSpells(5971654d-3887-4d14-bd52-6c486f10d4d6,1,0,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="83ec5a91-5550-43d0-8dbd-ee7c40d65f7d"/>
                 </node>

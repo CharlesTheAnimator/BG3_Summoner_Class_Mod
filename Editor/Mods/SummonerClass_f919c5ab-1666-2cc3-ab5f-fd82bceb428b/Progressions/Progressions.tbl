@@ -182,7 +182,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectEquipment(cc22c3e7-3fe1-4d9d-814e-522dee7fd0ba,1,SummonerBook)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectEquipment(cc22c3e7-3fe1-4d9d-814e-522dee7fd0ba,1,SummonerBook);SelectSpells(d481bae2-b379-4bcb-a1b3-660dddc56c5e,2,0,,,,AlwaysPrepared);SelectSpells(0bb93cd0-70ae-475e-950e-b40bd15c57f9,4,0);AddSpells(5971654d-3887-4d14-bd52-6c486f10d4d6,1,0,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

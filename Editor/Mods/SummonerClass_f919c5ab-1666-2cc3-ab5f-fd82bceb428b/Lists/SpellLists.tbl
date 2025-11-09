@@ -19,7 +19,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="08d92522-f4b8-46ee-b7b4-18789965403a" />
         <field name="Name" type="NameTableFieldDefinition" value="Summoner spells level 2" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Shout_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam;Target_SpikeGrowth;Shout_FlameBlade;Target_FlamingSphere;Target_CloudOfDaggers;Target_MistyStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -120,26 +120,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4695264e-3395-45fc-86a1-2ace6ea753db" />
-        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spell scroll list" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d481bae2-b379-4bcb-a1b3-660dddc56c5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Projectile_FireBolt;Target_Friends;Target_Light;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e66a2ab3-436c-47ec-bede-d63326591c07" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0bb93cd0-70ae-475e-950e-b40bd15c57f9" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ArcaneLock;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Projectile_AcidArrow;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e62645e-91c6-46f6-bbea-6008101bb88c" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_StinkingCloud;Target_VampiricTouch;Projectile_AcidArrow;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_Blur;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Target_HoldPerson;Target_Invisibility;Target_MagicWeapon;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Shout_Shield_Wizard;Zone_Thunderwave;Projectile_WitchBolt" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -158,6 +162,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1485bc8c-eb16-44c4-b1d2-680c8280e6a4" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spells level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4695264e-3395-45fc-86a1-2ace6ea753db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker spell scroll list" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5971654d-3887-4d14-bd52-6c486f10d4d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker FindFamiliar" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Planeswalker_FindFamiliar_Flumph_Summoner" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -330,5 +330,33 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d550da8g5f2ega17fg93dbg05d689931e63" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99c6ac4c-adcc-4ff6-a637-0db628168e66" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker_FindFamiliar_Flumph_Summoner" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(IsImprovedPactOfTheChain()):Summon(81089caf-6966-4afd-834a-54840cdae388,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(81089caf-6966-4afd-834a-54840cdae388, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_FLUMPH_RITUAL);" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6c296e5g875dgc93ega35dg59c71d9a40da" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="VFX_Somatic_03" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="739617e8-1255-4429-8b96-cc86296e0366" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="23d05225-027b-4656-97f8-564b185d37a2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h809b5767g66c3g3eeag61abg2d2ab25a5fbf" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
