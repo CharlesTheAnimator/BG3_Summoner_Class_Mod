@@ -247,5 +247,57 @@
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7e89d9a-43de-49f0-bb9b-480350c7f5cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Base_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac3c5a2f-6e8d-40b9-894b-6e60a18d1d3c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e53b0c86-bee0-43fc-907f-bac5ad82ab7d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Human_Archer_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c20c6766-74c7-4e8e-a36a-da6170265499" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons;MartialWeapons;MediumArmor;LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2638653-e592-4369-b834-2955001db81e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Human_Knight_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c20c6766-74c7-4e8e-a36a-da6170265499" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons;MartialWeapons;MediumArmor;LightArmor;Longswords" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4848f8cf-c5d5-43a8-b341-ca505067279f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Human_Mage_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c20c6766-74c7-4e8e-a36a-da6170265499" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons;MartialWeapons;MediumArmor;LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

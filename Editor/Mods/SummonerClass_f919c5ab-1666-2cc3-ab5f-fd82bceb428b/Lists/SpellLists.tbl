@@ -174,7 +174,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5971654d-3887-4d14-bd52-6c486f10d4d6" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker FindFamiliar" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Planeswalker_FindFamiliar_Flumph_Summoner" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Planeswalker_FindFamiliar_Flumph_Summoner;Target_SummonerAdept_Archer;Target_SummonerAdept_Knight;Target_SummonerAdept_Mage" />
       </fields>
     </stat_object>
   </stat_objects>

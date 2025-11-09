@@ -3,3 +3,38 @@ add initialweaponset "Ranged"
 add equipmentgroup
 add equipment entry "BOOK_GLO_GeneralLoreBook_LegendsOfTheSeaBitch"
 
+new equipment "EQP_PWS_Archer"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "OBJ_ArrowOfFire"
+add equipmentgroup
+add equipment entry "OBJ_ArrowOfIce"
+add equipmentgroup
+add equipment entry "OBJ_ArrowOfLightning"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_PWS_Knight"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "ARM_Breastplate_Body"
+
+new equipment "EQP_PWS_Mage"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_MagicStaff"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
