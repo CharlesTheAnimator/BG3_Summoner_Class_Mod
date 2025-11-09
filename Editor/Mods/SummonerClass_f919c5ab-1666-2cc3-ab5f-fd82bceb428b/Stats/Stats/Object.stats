@@ -8,5 +8,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b86d6c41-f601-4be8-a9d5-9aa9b23815e1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f5fe740-82d8-46ed-9831-d596602df07c" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Book_Planeswalker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4fca29-94de-4404-b23e-be9775941fba" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

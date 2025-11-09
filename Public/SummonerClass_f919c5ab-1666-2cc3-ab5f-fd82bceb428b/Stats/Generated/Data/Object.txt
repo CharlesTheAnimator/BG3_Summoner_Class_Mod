@@ -2,3 +2,7 @@ new entry "OBJ_Book_Indestructible_override"
 type "Object"
 using "OBJ_Book_Indestructible"
 
+new entry "OBJ_Book_Planeswalker"
+type "Object"
+using "OBJ_Book"
+
