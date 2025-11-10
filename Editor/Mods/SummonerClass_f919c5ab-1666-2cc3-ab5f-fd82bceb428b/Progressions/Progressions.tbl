@@ -150,6 +150,16 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9d2122d5-9bfc-418b-9e88-9176037087eb" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
         <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d0b0af80-00e7-4b00-8705-7f3ada7b8455" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>

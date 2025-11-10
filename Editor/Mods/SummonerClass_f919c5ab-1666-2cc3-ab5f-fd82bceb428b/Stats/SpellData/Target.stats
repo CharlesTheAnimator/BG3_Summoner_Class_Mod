@@ -234,7 +234,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Archer" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(a03ff782-78b6-438f-88a3-b54ed1256b16, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(249e76b0-d4a7-42fc-9f28-31d3e6ff64d7, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -323,7 +323,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b873d36a-2910-4dd8-b276-6db0517daab1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_FindFamiliar_Ritual_Summoner" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(IsImprovedPactOfTheChain()):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_CAT_RITUAL);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(IsImprovedPactOfTheChain() and  not CharacterLevelGreaterThan(4)):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain() and  not CharacterLevelGreaterThan(4)):Summon(97f3103d-cb9c-4a21-af80-ee0d480d65f8, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_CAT_RITUAL);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc2760ecg51cfge698g507ag25c63cc9756d" version="1" />
       </fields>
     </stat_object>

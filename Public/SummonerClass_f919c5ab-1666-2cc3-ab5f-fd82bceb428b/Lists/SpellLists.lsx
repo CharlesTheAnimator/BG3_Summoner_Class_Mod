@@ -67,6 +67,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Occultist spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_StinkingCloud;Target_VampiricTouch;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="61e01697-37a1-4f53-9cbe-00a14f2f1a99"/>
                 </node>
                 <node id="SpellList">

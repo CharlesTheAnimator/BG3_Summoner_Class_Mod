@@ -15,10 +15,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="EQP_PWS_Archer" />
         <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
         <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Longbow" />
-        <field name="2" type="StatReferenceTableFieldDefinition" value="OBJ_ArrowOfFire" />
-        <field name="3" type="StatReferenceTableFieldDefinition" value="OBJ_ArrowOfIce" />
-        <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_ArrowOfLightning" />
-        <field name="5" type="StatReferenceTableFieldDefinition" value="ARM_ScaleMail_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_ScaleMail_Body" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

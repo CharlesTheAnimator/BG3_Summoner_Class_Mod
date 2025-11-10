@@ -28,6 +28,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cefc5771-8136-4e8e-b4e4-42d6b281c92a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Familiar_Cat_Summoner_V2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f865ac3-0381-41ba-8978-595d0d594d09" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="DialogueBlock();BlockRegainHP(Undead;Construct)" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="669df4fe-766e-430c-9f1b-d4b32dcdc99c" />
         <field name="Name" type="NameTableFieldDefinition" value="Familiar_Spider_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="05a3f181-8033-488b-84f3-d637876815bf" />
@@ -264,9 +277,8 @@
         <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons;MartialWeapons;MediumArmor;LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor;LightArmor;Longbows" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Progressions" type="StringTableFieldDefinition" value="f0ede459-8b86-48fd-ac11-4432573566a5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
