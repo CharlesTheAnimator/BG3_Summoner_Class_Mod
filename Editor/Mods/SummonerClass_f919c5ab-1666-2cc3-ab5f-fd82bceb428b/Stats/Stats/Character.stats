@@ -266,6 +266,7 @@
         <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons;MartialWeapons;MediumArmor;LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Progressions" type="StringTableFieldDefinition" value="f0ede459-8b86-48fd-ac11-4432573566a5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -297,6 +298,7 @@
         <field name="Vitality" type="IntegerTableFieldDefinition" value="10" />
         <field name="Intelligence" type="IntegerTableFieldDefinition" value="16" />
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules" />
+        <field name="Progressions" type="StringTableFieldDefinition" value="44bdbc5e-a003-4d61-87f0-5ced20d3804e" />
       </fields>
     </stat_object>
   </stat_objects>
