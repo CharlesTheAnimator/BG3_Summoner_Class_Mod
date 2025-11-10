@@ -101,6 +101,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Planeswalker spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_StinkingCloud;Target_VampiricTouch;Projectile_AcidArrow;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Shout_Blur;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnlargeReduce;Target_FlamingSphere;Target_HoldPerson;Target_Invisibility;Target_MagicWeapon;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Shout_Shield_Wizard;Zone_Thunderwave;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="2e62645e-91c6-46f6-bbea-6008101bb88c"/>
                 </node>
                 <node id="SpellList">
