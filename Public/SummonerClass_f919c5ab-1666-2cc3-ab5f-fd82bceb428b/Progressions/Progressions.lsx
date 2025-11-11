@@ -74,6 +74,7 @@
                     <attribute id="Name" type="LSString" value="Summoner"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel4"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d384a8f8-6adb-4b15-94a7-338ffbe09f2c)"/>
                     <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
                     <attribute id="UUID" type="guid" value="21b315b3-3575-4047-a118-ace3e6c1922d"/>
                 </node>

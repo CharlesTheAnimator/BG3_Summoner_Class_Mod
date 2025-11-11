@@ -25,6 +25,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Summoner spells level 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_Polymorph;Wall_WallOfFire;Target_Banishment;Target_GuardianOfFaith"/>
                     <attribute id="UUID" type="guid" value="d384a8f8-6adb-4b15-94a7-338ffbe09f2c"/>
                 </node>
                 <node id="SpellList">

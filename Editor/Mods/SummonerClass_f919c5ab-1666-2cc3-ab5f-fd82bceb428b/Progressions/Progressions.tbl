@@ -82,6 +82,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel4" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d384a8f8-6adb-4b15-94a7-338ffbe09f2c)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
