@@ -73,6 +73,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Occultist spells level 4"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_DimensionDoor;Target_BlackTentacles;Target_BestowCurse;Target_Counterspell;Zone_Fear;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_Enthrall;Target_Invisibility"/>
                     <attribute id="UUID" type="guid" value="752a4e06-213b-49b3-8dfa-ff7e087bceaa"/>
                 </node>
                 <node id="SpellList">
