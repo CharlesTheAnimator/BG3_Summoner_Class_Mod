@@ -80,6 +80,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Summoner" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
