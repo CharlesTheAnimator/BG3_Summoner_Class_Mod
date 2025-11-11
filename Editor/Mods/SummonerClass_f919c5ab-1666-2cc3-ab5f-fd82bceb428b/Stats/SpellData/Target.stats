@@ -433,5 +433,14 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a17d3fac-70ad-4bc7-a206-86200909b4f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MistyStep_Flumph" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

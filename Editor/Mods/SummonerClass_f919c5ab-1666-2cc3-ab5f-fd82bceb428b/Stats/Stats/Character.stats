@@ -116,6 +116,31 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0262a180-179c-42cc-9ddb-df01b9f81e47" />
+        <field name="Name" type="NameTableFieldDefinition" value="Harpy_Summoner_Lvl5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="PRONE_FALLEN;LURING_SONG;CRIPPLED" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:32;ReactionActionPoint:1" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="FloatingWhileMoving" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Harpy;AttackOfOpportunity;DarknessRules" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="2200" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f740a565-df0c-4211-a971-7c4e3073a32a" />
         <field name="Name" type="NameTableFieldDefinition" value="Hyena_Summoner_Lvl2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="78ed4b4c-5f20-4e76-bf9b-0b9249fc7d44" />

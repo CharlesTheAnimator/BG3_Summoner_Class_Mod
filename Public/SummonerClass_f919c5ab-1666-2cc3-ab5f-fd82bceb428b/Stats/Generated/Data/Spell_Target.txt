@@ -386,3 +386,10 @@ data "PrepareEffect" "739617e8-1255-4429-8b96-cc86296e0366"
 data "CastEffect" "23d05225-027b-4656-97f8-564b185d37a2"
 data "DamageType" "Psychic"
 
+new entry "Target_MistyStep_Flumph"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MistyStep"
+data "Level" "0"
+data "MemoryCost" "0"
+
