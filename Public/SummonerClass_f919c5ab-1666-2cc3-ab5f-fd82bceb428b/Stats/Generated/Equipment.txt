@@ -32,3 +32,8 @@ add equipment entry "WPN_MagicStaff"
 add equipmentgroup
 add equipment entry "ARM_Robe_Body"
 
+new equipment "EQP_FireGoblin"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_FlamingFist_FlamingBlade"
+

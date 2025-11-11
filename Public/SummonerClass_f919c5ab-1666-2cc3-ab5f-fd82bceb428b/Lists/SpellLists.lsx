@@ -130,6 +130,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Planeswalker_FindFamiliar_Flumph_Summoner;Target_SummonerAdept_Archer;Target_SummonerAdept_Knight;Target_SummonerAdept_Mage"/>
                     <attribute id="UUID" type="guid" value="5971654d-3887-4d14-bd52-6c486f10d4d6"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Planeswalker Goblin Rush"/>
+                    <attribute id="Spells" type="LSString" value="Target_Goblin_Rush"/>
+                    <attribute id="UUID" type="guid" value="dcce5e59-686d-4b04-a3b7-f4423b801622"/>
+                </node>
             </children>
         </node>
     </region>

@@ -440,6 +440,20 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ec8c716-4f7c-4638-a072-fcdf9ce60afc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goblin_Rush" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab1d432b-dc1f-498f-b5ef-a10f9675975a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(3a1a8ee5-1d8c-4ed3-9cd2-63980c82bfa2, 10,Projectile_AiHelper_Summon_Weak,,,UNSUMMON_ABLE,FLAMING_SPHERE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h376c945dg5a2bg8092gff05gab7739ce8dd4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90b7cdf9gedb3ga3a6g28a8g3d68d48526c5" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>

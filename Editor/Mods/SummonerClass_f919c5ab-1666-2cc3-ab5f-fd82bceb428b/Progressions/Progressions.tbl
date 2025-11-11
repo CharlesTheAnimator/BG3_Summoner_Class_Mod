@@ -221,6 +221,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(dcce5e59-686d-4b04-a3b7-f4423b801622,SummonerAdept,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -299,3 +299,18 @@ data "Passives" "AttackOfOpportunity;DarknessRules"
 data "Progressions" "44bdbc5e-a003-4d61-87f0-5ced20d3804e"
 data "Proficiency Group" "SimpleWeapons;MartialWeapons;MediumArmor;LightArmor"
 
+new entry "New_Stat_0"
+type "Character"
+using "_Base"
+
+new entry "Goblin_Fire_Summoner"
+type "Character"
+using "Goblin"
+data "Armor" "12"
+data "Vitality" "14"
+data "BludgeoningResistance" "Resistant"
+data "SlashingResistance" "Resistant"
+data "PiercingResistance" "Resistant"
+data "FireResistance" "Immune"
+data "Proficiency Group" "MediumArmor;SimpleWeapons;Shields;LightArmor;Scimitars;Longswords"
+

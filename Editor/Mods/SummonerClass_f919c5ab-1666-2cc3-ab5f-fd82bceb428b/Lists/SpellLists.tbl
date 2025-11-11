@@ -181,5 +181,12 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Planeswalker_FindFamiliar_Flumph_Summoner;Target_SummonerAdept_Archer;Target_SummonerAdept_Knight;Target_SummonerAdept_Mage" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcce5e59-686d-4b04-a3b7-f4423b801622" />
+        <field name="Name" type="NameTableFieldDefinition" value="Planeswalker Goblin Rush" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Goblin_Rush" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

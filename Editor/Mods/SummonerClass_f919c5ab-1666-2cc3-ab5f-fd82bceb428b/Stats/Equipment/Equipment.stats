@@ -40,5 +40,13 @@
         <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d77580fc-20cd-43ee-b646-0910a0adaad7" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_FireGoblin" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="MAG_FlamingFist_FlamingBlade" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

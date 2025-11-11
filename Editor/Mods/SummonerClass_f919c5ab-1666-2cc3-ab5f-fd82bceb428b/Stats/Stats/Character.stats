@@ -362,5 +362,26 @@
         <field name="Progressions" type="StringTableFieldDefinition" value="44bdbc5e-a003-4d61-87f0-5ced20d3804e" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8331ef9e-9821-4dbd-924c-f0dd4b90fc93" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac3c5a2f-6e8d-40b9-894b-6e60a18d1d3c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fd71d8c-998a-459f-bf0c-820d7bf75843" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goblin_Fire_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="faa7409a-1da2-4d3a-a00e-d795a94511df" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="14" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor;SimpleWeapons;Shields;LightArmor;Scimitars;Longswords" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
