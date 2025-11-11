@@ -166,6 +166,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -219,6 +220,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
