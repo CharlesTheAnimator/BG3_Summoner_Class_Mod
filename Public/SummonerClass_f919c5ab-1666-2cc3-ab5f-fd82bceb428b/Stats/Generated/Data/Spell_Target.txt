@@ -410,6 +410,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_ConjureIntellectDevour"
 data "SpellSchool" "Conjuration"
+data "SpellProperties" "GROUND:Summon(8095c41f-6c7f-4d99-afad-40fa925d1c09, -1,,,'IntellectDevourStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
 data "AmountOfTargets" "5"
 data "DisplayName" "ha7fe7907gd1edgdc24g7743g48f1d045b025;1"
 

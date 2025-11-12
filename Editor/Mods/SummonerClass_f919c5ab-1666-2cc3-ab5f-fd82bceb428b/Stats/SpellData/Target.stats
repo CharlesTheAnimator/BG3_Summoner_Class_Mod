@@ -462,6 +462,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Occultist_ConjureIntellectDevour_Summoner" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ed580610-a6ce-4df9-b769-8d8a316b6fd7" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(8095c41f-6c7f-4d99-afad-40fa925d1c09, -1,,,'IntellectDevourStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7fe7907gd1edgdc24g7743g48f1d045b025" version="1" />
       </fields>
