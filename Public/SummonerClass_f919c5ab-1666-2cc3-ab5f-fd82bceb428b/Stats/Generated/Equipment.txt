@@ -10,12 +10,34 @@ add equipment entry "WPN_Longbow"
 add equipmentgroup
 add equipment entry "ARM_ScaleMail_Body"
 
+new equipment "EQP_PWS_Archer_Lv6"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow_1"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
 new equipment "EQP_PWS_Knight"
 add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Longsword"
 add equipmentgroup
 add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "ARM_Breastplate_Body"
+
+new equipment "EQP_PWS_Knight_Lvl6"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword_1"
+add equipmentgroup
+add equipment entry "ARM_Shield_1"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup

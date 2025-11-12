@@ -174,7 +174,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Planeswalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(dcce5e59-686d-4b04-a3b7-f4423b801622,SummonerAdept,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(dcce5e59-686d-4b04-a3b7-f4423b801622,SummonerAdept,,,AlwaysPrepared);SelectSpells(2e62645e-91c6-46f6-bbea-6008101bb88c,2,0)"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="19bad95a-4bca-4dda-98c9-f489b50192c2"/>
                 </node>

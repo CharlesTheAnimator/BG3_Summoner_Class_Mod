@@ -20,11 +20,33 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eeebdff0-3a2c-4e10-adae-d842be1e6e8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_PWS_Archer_Lv6" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Longbow_1" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_ScaleMail_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2be5a767-70cc-4b65-957d-4fec9b0867c2" />
         <field name="Name" type="NameTableFieldDefinition" value="EQP_PWS_Knight" />
         <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
         <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Longsword" />
         <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shield" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="OBJ_GreaseBottle" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="ARM_Breastplate_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="761c62a8-a639-48f0-92c9-1095f4c9825d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_PWS_Knight_Lvl6" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Longsword_1" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shield_1" />
         <field name="3" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
         <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
         <field name="5" type="StatReferenceTableFieldDefinition" value="OBJ_GreaseBottle" />

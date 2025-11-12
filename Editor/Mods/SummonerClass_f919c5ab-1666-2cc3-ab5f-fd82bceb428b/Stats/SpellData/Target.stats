@@ -234,7 +234,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Archer" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(249e76b0-d4a7-42fc-9f28-31d3e6ff64d7, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(249e76b0-d4a7-42fc-9f28-31d3e6ff64d7, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5)):Summon(ab4adb13-884b-4631-87e6-62fb6c11fff5, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -259,7 +259,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Knight" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(e857e147-b78b-4be1-bbdc-03495f51edd3, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(e857e147-b78b-4be1-bbdc-03495f51edd3, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5)):Summon(88d37075-a0a8-414c-970c-9865be9dacf2, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
@@ -284,7 +284,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_Mage" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5ae4be9-d101-4a00-b4ac-9e1c9b6b26ec, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(d5ae4be9-d101-4a00-b4ac-9e1c9b6b26ec, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5)):Summon(8d4a84d2-bd80-414c-a6af-72d73322e207, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
