@@ -48,6 +48,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel3" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c7016a46-95ce-449f-bbe3-72c11b1a310d)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -210,6 +211,18 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectEquipment(cc22c3e7-3fe1-4d9d-814e-522dee7fd0ba,1,SummonerBook);SelectSpells(d481bae2-b379-4bcb-a1b3-660dddc56c5e,2,0,,,,AlwaysPrepared);SelectSpells(0bb93cd0-70ae-475e-950e-b40bd15c57f9,4,0);AddSpells(5971654d-3887-4d14-bd52-6c486f10d4d6,1,0,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7153c742-92e3-4c2f-b0be-f00191834de8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2e62645e-91c6-46f6-bbea-6008101bb88c,2,0)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)" />
       </fields>
     </stat_object>
