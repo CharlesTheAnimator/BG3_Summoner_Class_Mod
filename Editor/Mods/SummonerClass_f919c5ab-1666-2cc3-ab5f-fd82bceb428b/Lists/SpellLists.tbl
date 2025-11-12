@@ -188,5 +188,12 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Goblin_Rush" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist Intellect Devour" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Occultist_ConjureIntellectDevour_Summoner" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

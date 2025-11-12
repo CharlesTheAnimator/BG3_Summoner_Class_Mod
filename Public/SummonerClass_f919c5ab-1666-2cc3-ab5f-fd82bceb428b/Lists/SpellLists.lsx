@@ -135,6 +135,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Goblin_Rush"/>
                     <attribute id="UUID" type="guid" value="dcce5e59-686d-4b04-a3b7-f4423b801622"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Occultist Intellect Devour"/>
+                    <attribute id="Spells" type="LSString" value="Target_Occultist_ConjureIntellectDevour_Summoner"/>
+                    <attribute id="UUID" type="guid" value="a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2"/>
+                </node>
             </children>
         </node>
     </region>

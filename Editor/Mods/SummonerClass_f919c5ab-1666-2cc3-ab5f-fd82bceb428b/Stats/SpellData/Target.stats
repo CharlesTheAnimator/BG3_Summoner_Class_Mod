@@ -209,7 +209,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonerAdept_WingedHorror" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SummonerAdept" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(a5b0057a-8f81-4264-9668-9c0781822c4e, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(a5b0057a-8f81-4264-9668-9c0781822c4e, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5)):Summon(2f94751a-4efa-4b6f-9f27-b7d1bf3207bd, Permanent,,,'SummonAdeptStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_PactOfTheChain_Imp" />
@@ -454,6 +454,16 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90b7cdf9gedb3ga3a6g28a8g3d68d48526c5" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c28c3bda-9740-4dd7-acaa-58b3a0446df2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Occultist_ConjureIntellectDevour_Summoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed580610-a6ce-4df9-b769-8d8a316b6fd7" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7fe7907gd1edgdc24g7743g48f1d045b025" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -135,6 +135,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Occultist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2,IntellectDevour,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="UUID" type="guid" value="d0b0af80-00e7-4b00-8705-7f3ada7b8455"/>
                 </node>
