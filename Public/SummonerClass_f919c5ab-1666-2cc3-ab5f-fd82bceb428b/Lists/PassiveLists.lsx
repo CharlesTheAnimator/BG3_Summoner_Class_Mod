@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Occultist invocations"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,MaskOfManyFaces,RepellingBlast"/>
+                    <attribute id="UUID" type="guid" value="e213152a-3650-40f1-891f-e45997526c5e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

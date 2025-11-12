@@ -157,6 +157,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
         <field name="Level" type="ByteTableFieldDefinition" value="4" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(61e01697-37a1-4f53-9cbe-00a14f2f1a99)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -168,7 +169,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2,IntellectDevour,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2,IntellectDevour,,,AlwaysPrepared);SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -223,7 +224,17 @@
         <field name="Level" type="ByteTableFieldDefinition" value="4" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2e62645e-91c6-46f6-bbea-6008101bb88c,2,0)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9ddd3285-ce14-4919-878d-4f2b7689b8bd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2e62645e-91c6-46f6-bbea-6008101bb88c,2,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
