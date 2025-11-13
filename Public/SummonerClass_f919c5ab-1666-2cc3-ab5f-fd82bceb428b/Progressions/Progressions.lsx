@@ -49,6 +49,7 @@
                     <attribute id="Name" type="LSString" value="Summoner"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel3"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c7016a46-95ce-449f-bbe3-72c11b1a310d)"/>
                     <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
                     <attribute id="UUID" type="guid" value="35af6c2d-be31-4673-8963-395211449405"/>
                 </node>
@@ -200,6 +201,15 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ProficiencyBonus(SavingThrow,Intelligence)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Planeswalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(2e62645e-91c6-46f6-bbea-6008101bb88c,2,0)"/>
+                    <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
+                    <attribute id="UUID" type="guid" value="7153c742-92e3-4c2f-b0be-f00191834de8"/>
                 </node>
             </children>
         </node>

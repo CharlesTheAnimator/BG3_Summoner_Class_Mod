@@ -21,6 +21,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Summoner spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConjureBarrage;Target_ElementalWeapon;Shout_HealingWord_Mass;Shout_SpiritGuardians;Target_StinkingCloud"/>
                     <attribute id="UUID" type="guid" value="c7016a46-95ce-449f-bbe3-72c11b1a310d"/>
                 </node>
                 <node id="SpellList">
