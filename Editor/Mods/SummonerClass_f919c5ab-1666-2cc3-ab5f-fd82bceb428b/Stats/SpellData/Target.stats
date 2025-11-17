@@ -454,6 +454,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90b7cdf9gedb3ga3a6g28a8g3d68d48526c5" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -465,6 +466,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(8095c41f-6c7f-4d99-afad-40fa925d1c09, -1,,,'IntellectDevourStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7fe7907gd1edgdc24g7743g48f1d045b025" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>
