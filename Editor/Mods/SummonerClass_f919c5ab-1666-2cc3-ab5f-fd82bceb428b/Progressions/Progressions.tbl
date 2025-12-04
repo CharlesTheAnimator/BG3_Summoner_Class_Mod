@@ -142,6 +142,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Summoner" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -243,6 +244,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -355,6 +357,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0)" />
       </fields>
     </stat_object>
   </stat_objects>

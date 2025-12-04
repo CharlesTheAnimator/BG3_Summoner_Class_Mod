@@ -116,6 +116,7 @@
                     <attribute id="UUID" type="guid" value="dffe0716-012d-4837-aa46-a97c8d3d5350"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Summoner"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -182,9 +183,18 @@
                     <attribute id="UUID" type="guid" value="1e4ff1a1-31ad-4099-8340-b92fa22e2c9a"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Occultist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(1be00660-c986-46b6-9ff3-5773d0451d7e)"/>
+                    <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
+                    <attribute id="UUID" type="guid" value="aee349f0-4712-44be-9c2c-d865be55236a"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Occultist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations)"/>
                     <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="UUID" type="guid" value="2e90fae2-fb2b-47c8-87d9-8de8057d19d9"/>
                 </node>
@@ -256,27 +266,20 @@
                     <attribute id="UUID" type="guid" value="3ec277a9-bf21-4e73-b02c-46bc4bc24cd4"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="Planeswalker"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
-                    <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Occultist"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(1be00660-c986-46b6-9ff3-5773d0451d7e)"/>
-                    <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
-                    <attribute id="UUID" type="guid" value="aee349f0-4712-44be-9c2c-d865be55236a"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Planeswalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0)"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="4f3cc6de-4aa8-4a09-a392-6fe9189aa8a6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="Planeswalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0)"/>
+                    <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
+                    <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
                 </node>
             </children>
         </node>
