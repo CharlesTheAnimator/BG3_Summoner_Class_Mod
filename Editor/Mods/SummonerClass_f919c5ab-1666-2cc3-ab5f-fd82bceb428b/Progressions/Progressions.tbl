@@ -105,6 +105,9 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,5)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ef9790eb-212e-47af-85de-58ad2c2e2f8f)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -197,6 +200,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1351ffb4-6280-4061-9c19-03b62ecfaad4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb20371d-8ea7-4de9-aaf5-968b01f108c9)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_235" />
         <field name="UUID" type="IdTableFieldDefinition" value="1e4ff1a1-31ad-4099-8340-b92fa22e2c9a" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5" />
@@ -282,6 +296,17 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(933ff4cc-d693-4983-82b7-ba371fb7bea1,2,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="83ff9521-035c-422e-b18f-a45aa5257ef8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Planeswalker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(972dc738-0c84-4953-b7fe-b0b45457769f,2,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
