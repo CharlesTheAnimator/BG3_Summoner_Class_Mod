@@ -133,7 +133,7 @@
                     <attribute id="UUID" type="guid" value="9d2122d5-9bfc-418b-9e88-9176037087eb"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Occultist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -218,6 +218,24 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Occultist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations)"/>
+                    <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
+                    <attribute id="UUID" type="guid" value="5b16e528-965c-4c3e-beeb-b1ae96a1a9be"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Planeswalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(933ff4cc-d693-4983-82b7-ba371fb7bea1,2,0)"/>
+                    <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
+                    <attribute id="UUID" type="guid" value="6ba3e02d-65a6-4d24-9a1e-5d87bdc3ceac"/>
                 </node>
             </children>
         </node>
