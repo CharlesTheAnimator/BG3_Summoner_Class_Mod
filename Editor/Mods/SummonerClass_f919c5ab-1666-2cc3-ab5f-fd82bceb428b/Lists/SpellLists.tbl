@@ -128,7 +128,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d481bae2-b379-4bcb-a1b3-660dddc56c5e" />
         <field name="Name" type="NameTableFieldDefinition" value="Planeswalker Cantrips" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Projectile_FireBolt;Target_Friends;Target_Light;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Projectile_FireBolt;Target_Friends;Target_Light;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike;Shout_ProduceFlame;Shout_Shillelagh;Target_ThornWhip;Target_DancingLights;Target_MageHand;Target_MinorIllusion;Shout_Thaumaturgy;Target_SacredFlame" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
