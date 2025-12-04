@@ -106,9 +106,12 @@
                     <attribute id="UUID" type="guid" value="33bb8d52-ae04-4ec6-8f10-f8f8876aafbe"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,6)"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Summoner"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel6"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(bafc55f3-567d-4e0a-addc-97c5e083ec9c)"/>
                     <attribute id="TableUUID" type="guid" value="f12d8427-f67e-4cad-9f29-4fc06b595bf8"/>
                     <attribute id="UUID" type="guid" value="dffe0716-012d-4837-aa46-a97c8d3d5350"/>
                 </node>
@@ -248,7 +251,7 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Planeswalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(d481bae2-b379-4bcb-a1b3-660dddc56c5e,2,0,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(d481bae2-b379-4bcb-a1b3-660dddc56c5e,2,0,,,,AlwaysPrepared);SelectSpells(972dc738-0c84-4953-b7fe-b0b45457769f,2,0)"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="3ec277a9-bf21-4e73-b02c-46bc4bc24cd4"/>
                 </node>
@@ -258,6 +261,22 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Occultist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(1be00660-c986-46b6-9ff3-5773d0451d7e)"/>
+                    <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
+                    <attribute id="UUID" type="guid" value="aee349f0-4712-44be-9c2c-d865be55236a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Planeswalker"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0)"/>
+                    <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
+                    <attribute id="UUID" type="guid" value="4f3cc6de-4aa8-4a09-a392-6fe9189aa8a6"/>
                 </node>
             </children>
         </node>
