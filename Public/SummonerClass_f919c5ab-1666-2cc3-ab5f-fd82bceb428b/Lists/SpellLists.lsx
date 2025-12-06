@@ -147,6 +147,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Occultist_ConjureIntellectDevour_Summoner"/>
                     <attribute id="UUID" type="guid" value="a6f2e705-8c7c-41f1-9865-e7ed1cfdd4d2"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summon Dragon"/>
+                    <attribute id="Spells" type="LSString" value="Target_Summon_Dragon"/>
+                    <attribute id="UUID" type="guid" value="1fe77c05-0b23-4770-a2c9-e9254967ff24"/>
+                </node>
             </children>
         </node>
     </region>

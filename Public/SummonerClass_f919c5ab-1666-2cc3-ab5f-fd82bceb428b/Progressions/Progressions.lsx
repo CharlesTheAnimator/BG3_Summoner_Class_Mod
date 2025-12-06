@@ -194,7 +194,7 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Occultist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations);"/>
                     <attribute id="TableUUID" type="guid" value="241a8339-6f6d-42f6-a87c-68de9b7b95d5"/>
                     <attribute id="UUID" type="guid" value="2e90fae2-fb2b-47c8-87d9-8de8057d19d9"/>
                 </node>
@@ -277,7 +277,7 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Planeswalker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1485bc8c-eb16-44c4-b1d2-680c8280e6a4,2,0);AddSpells(1fe77c05-0b23-4770-a2c9-e9254967ff24,SummonDragon,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="6afe1fe8-f378-4286-b5c1-0940f3e6f0f8"/>
                     <attribute id="UUID" type="guid" value="c535a0f1-beba-4c51-a55b-22b392137c3e"/>
                 </node>

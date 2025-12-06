@@ -202,5 +202,12 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Occultist_ConjureIntellectDevour_Summoner" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fe77c05-0b23-4770-a2c9-e9254967ff24" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summon Dragon" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Summon_Dragon" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -457,6 +457,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="0" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -469,6 +470,36 @@
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7fe7907gd1edgdc24g7743g48f1d045b025" version="1" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e812935g119bgd75dgf350g366dd7efcb83" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0d5f4ec-b33f-436f-97b6-fbc3952588df" />
+        <field name="Name" type="NameTableFieldDefinition" value="Summon_Dragon" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(19ee1371-600e-4e7a-8aad-903b1faae408, 3,Projectile_AiHelper_Summon_Weak,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('a4ca1c8f-d59b-4393-9c06-987713f8f74d') and not Character() and not Self()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1c7b470ga3b8gdf0fg83dcg7aae14fcdf6c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0906d3feg4b6fg65d9g9d51ge4e8b7549696" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_PlanarAlly" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Summon_ConjureElemental_Air_L4to5" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Summon_ConjureMinorElementals_Azer_L4to5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_ConjureElemental_HigherLevel_L6to8" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_DevourIntellect" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7e42016a-29f9-4922-908b-dbf010dff168" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ebd046f7-066f-4acf-b671-dd451201c58b" />
       </fields>
     </stat_object>
   </stat_objects>
