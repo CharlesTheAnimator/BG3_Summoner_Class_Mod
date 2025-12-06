@@ -244,7 +244,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Occultist" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e213152a-3650-40f1-891f-e45997526c5e,1,OccultInvocations);AddSpells(f506237d-f927-4e97-9d93-e858f442d502,SummonSlayer,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

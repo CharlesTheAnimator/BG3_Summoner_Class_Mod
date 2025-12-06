@@ -152,6 +152,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Summon_Dragon"/>
                     <attribute id="UUID" type="guid" value="1fe77c05-0b23-4770-a2c9-e9254967ff24"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Summon Slayer"/>
+                    <attribute id="Spells" type="LSString" value="Target_Summon_Slayer"/>
+                    <attribute id="UUID" type="guid" value="f506237d-f927-4e97-9d93-e858f442d502"/>
+                </node>
             </children>
         </node>
     </region>
